@@ -1,0 +1,56 @@
+{
+    "version": "4098",
+    "description": "A sophisticated text editor for code, markup and prose",
+    "homepage": "https://www.sublimetext.com",
+    "license": {
+        "identifier": "Shareware",
+        "url": "https://www.sublimetext.com/eula"
+    },
+    "notes": "Add Sublime Text as a context menu option by running: \"reg import '$dir\\install-context.reg'\"",
+    "architecture": {
+        "64bit": {
+            "url": [
+                "https://download.sublimetext.com/sublime_text_build_4098_x64.zip",
+                "https://raw.githubusercontent.com/jat001/scoop-ox/main/scripts/sublime-text/install-context.reg",
+                "https://raw.githubusercontent.com/jat001/scoop-ox/main/scripts/sublime-text/uninstall-context.reg"
+            ],
+            "hash": [
+                "59ffb31f85cfb543d649b48361bb2e67e0625178eec5aa8b9e5f458de44efbdd",
+                "a505c280cb030d64210994f43d879d1a558f78c1a9d76e2d551a5b9e1b41fa7e",
+                "484614272bc348d2cbb6e85d12653432c2a64303886481cda26f1fc89133010d"
+            ]
+        }
+    },
+    "post_install": [
+        "$file = \"$dir\\install-context.reg\"",
+        "if (Test-Path $file) {",
+        "    $sublimepath = \"$dir\\sublime_text.exe\".Replace('\\', '\\\\')",
+        "    $content = (Get-Content $file).Replace('$sublime', $sublimepath)",
+        "    if ($global) { $content = $content.Replace('HKEY_CURRENT_USER', 'HKEY_LOCAL_MACHINE') }",
+        "    Set-Content $file $content -Encoding Ascii -Force",
+        "}",
+        "$file = \"$dir\\uninstall-context.reg\"",
+        "if ((Test-Path $file) -and $global) {",
+        "    (Get-Content $file).Replace('HKEY_CURRENT_USER', 'HKEY_LOCAL_MACHINE') | Set-Content -Path $file -Encoding Ascii -Force",
+        "}"
+    ],
+    "bin": "subl.exe",
+    "shortcuts": [
+        [
+            "sublime_text.exe",
+            "Sublime Text 4"
+        ]
+    ],
+    "persist": "Data",
+    "checkver": {
+        "url": "https://gist.github.com/jfcherng/7bf4103ea486d1f67b7970e846b3a619",
+        "regex": "</h1><h2><a\\sid=\"user-content-build-(\\d+)\">"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://download.sublimetext.com/sublime_text_build_$version_x64.zip"
+            }
+        }
+    }
+}

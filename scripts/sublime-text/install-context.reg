@@ -1,0 +1,19 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CURRENT_USER\Software\Classes\*\shell\Open with &Sublime Text 4]
+@="Open with &Sublime Text 4"
+"Icon"="$sublime"
+[HKEY_CURRENT_USER\Software\Classes\*\shell\Open with &Sublime Text 4\command]
+@="\"$sublime\" \"%1\""
+
+[HKEY_CURRENT_USER\Software\Classes\Directory\shell\Open with &Sublime Text 4]
+@="Open with &Sublime Text 4"
+"Icon"="$sublime"
+[HKEY_CURRENT_USER\Software\Classes\Directory\shell\Open with &Sublime Text 4\command]
+@="\"$sublime\" \"%1\""
+
+[HKEY_CURRENT_USER\Software\Classes\Directory\Background\shell\Open with &Sublime Text 4]
+@="Open with &Sublime Text 4"
+"Icon"="$sublime"
+[HKEY_CURRENT_USER\Software\Classes\Directory\Background\shell\Open with &Sublime Text 4\command]
+@="\"$sublime\" \"%V\""

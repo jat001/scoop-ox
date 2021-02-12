@@ -44,7 +44,7 @@
     "persist": "Data",
     "checkver": {
         "url": "https://gist.github.com/jfcherng/7bf4103ea486d1f67b7970e846b3a619",
-        "regex": "</h1><h2><a\\sid=\"user-content-build-(\\d+)\">"
+        "regex": "<\\/h1>\\n<h2><a\\sid=\"user-content-build-(\\d+)\""
     },
     "autoupdate": {
         "architecture": {

@@ -7,7 +7,7 @@ jobs:
     name: Pull Request Validator
     runs-on: windows-latest
     steps:
-    - uses: actions/checkout@main
+    - uses: actions/checkout@v2
     - name: Pull Request Validator
       uses: Ash258/Scoop-GithubActions@stable-win
       if: startsWith(github.event.comment.body, '/verify')

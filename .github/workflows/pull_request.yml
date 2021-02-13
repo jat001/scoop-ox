@@ -1,13 +1,13 @@
 on:
   pull_request:
     types: [ opened ]
-name: Pull Requests
+name: Pull Request
 jobs:
   pullRequestHandler:
     name: Pull Request Validator
     runs-on: windows-latest
     steps:
-    - uses: actions/checkout@main
+    - uses: actions/checkout@v2
     - name: Pull Request Validator
       uses: Ash258/Scoop-GithubActions@stable-win
       env:

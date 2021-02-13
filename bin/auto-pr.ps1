@@ -1,9 +1,47 @@
+<#
+.SYNOPSIS
+    Updates manifests and pushes them or creates pull-requests.
+.DESCRIPTION
+    Updates manifests and pushes them to directly the main branch or creates pull-requests for upstream.
+.PARAMETER Manifest
+    Manifest to be updated.
+.PARAMETER Dir
+    Where to search for manifests.
+.PARAMETER Upstream
+    Upstream repository with target branch.
+.PARAMETER Push
+    Push updates directly to 'origin main'.
+.PARAMETER Request
+    Create pull-requests on 'upstream main' for each update.
+.PARAMETER SpecialSnowflakes
+    List of manifests, which should be updated allways. (Force updated)
+#>
 param(
-    # overwrite upstream param
-    [String]$upstream = "jat001/scoop-ox:main"
+    [Alias('App', 'Name')]
+    [String] $Manifest = '*',
+    [ValidateScript( { if ( Test-Path $_ -Type Container) { $true } else { $false } })]
+    [String] $Dir = "$PSScriptRoot\..\bucket",
+    [ValidatePattern('^(.+)\/(.+):(.+)$')]
+    [String] $Upstream = $((git config --get remote.origin.url) -replace '^.+[:/](?<user>.*)\/(?<repo>.*)(\.git)?$', '${user}/${repo}:main'),
+    [Switch] $Push,
+    [Switch] $Request,
+    [string[]] $SpecialSnowflakes
 )
 
-if(!$env:SCOOP_HOME) { $env:SCOOP_HOME = resolve-path (split-path (split-path (scoop which scoop))) }
-$autopr = "$env:SCOOP_HOME/bin/auto-pr.ps1"
-$dir = "$psscriptroot/../bucket" # checks the parent dir
-Invoke-Expression -command "& '$autopr' -dir '$dir' -upstream $upstream $($args | ForEach-Object { "$_ " })"
+begin {
+    if (-not $env:SCOOP_HOME) { $env:SCOOP_HOME = Resolve-Path (scoop prefix scoop) }
+    $Dir = Resolve-Path $Dir
+    $Params = @{
+        App               = $Manifest
+        Dir               = $Dir
+        Upstream          = $Upstream
+        Push              = $Push
+        Request           = $Request
+        SpecialSnowflakes = $SpecialSnowflakes
+        SkipUpdated       = $true
+    }
+}
+
+process { . "$env:SCOOP_HOME\bin\auto-pr.ps1" @Params }
+
+end { Write-Host 'DONE' -ForegroundColor Yellow }

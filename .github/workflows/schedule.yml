@@ -7,7 +7,7 @@ jobs:
     name: Excavator
     runs-on: windows-latest
     steps:
-    - uses: actions/checkout@main
+    - uses: actions/checkout@v2
     - name: Excavator
       uses: Ash258/Scoop-GithubActions@stable-win
       env:

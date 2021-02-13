@@ -1,5 +1,6 @@
-*.sublime-workspace
-*~
-._*
+TODO/A*
+/A*
 page.html
-checkver-*.html
+/checkver*
+/.cache/
+/.vagrant/

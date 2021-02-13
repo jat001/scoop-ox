@@ -2,7 +2,7 @@
 .SYNOPSIS
     Updates manifests and pushes them or creates pull-requests.
 .DESCRIPTION
-    Updates manifests and pushes them to directly the main branch or creates pull-requests for upstream.
+    Updates manifests and pushes them to directly the master branch or creates pull-requests for upstream.
 .PARAMETER Manifest
     Manifest to be updated.
 .PARAMETER Dir
@@ -10,9 +10,9 @@
 .PARAMETER Upstream
     Upstream repository with target branch.
 .PARAMETER Push
-    Push updates directly to 'origin main'.
+    Push updates directly to 'origin master'.
 .PARAMETER Request
-    Create pull-requests on 'upstream main' for each update.
+    Create pull-requests on 'upstream master' for each update.
 .PARAMETER SpecialSnowflakes
     List of manifests, which should be updated allways. (Force updated)
 #>
@@ -22,7 +22,7 @@ param(
     [ValidateScript( { if ( Test-Path $_ -Type Container) { $true } else { $false } })]
     [String] $Dir = "$PSScriptRoot\..\bucket",
     [ValidatePattern('^(.+)\/(.+):(.+)$')]
-    [String] $Upstream = $((git config --get remote.origin.url) -replace '^.+[:/](?<user>.*)\/(?<repo>.*)(\.git)?$', '${user}/${repo}:main'),
+    [String] $Upstream = $((git config --get remote.origin.url) -replace '^.+[:/](?<user>.*)\/(?<repo>.*)(\.git)?$', '${user}/${repo}:master'),
     [Switch] $Push,
     [Switch] $Request,
     [string[]] $SpecialSnowflakes

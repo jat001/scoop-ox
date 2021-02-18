@@ -22,8 +22,8 @@
     ],
     "persist": "Data",
     "checkver": {
-        "url": "https://www.sublimemerge.com/dev",
-        "regex": "Version:</i>\\sBuild\\s([\\d]+)</p>"
+        "url": "https://www.sublimemerge.com/updates/dev_update_check",
+        "jsonpath": "$.latest_version"
     },
     "autoupdate": {
         "architecture": {

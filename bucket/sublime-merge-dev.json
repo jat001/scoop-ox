@@ -1,5 +1,5 @@
 {
-    "version": "2045",
+    "version": "2046",
     "description": "A Git client with snappy UI, three-way merge tool, side-by-side diffs, syntax highlighting, and more.",
     "homepage": "https://www.sublimemerge.com/dev",
     "license": {
@@ -9,8 +9,8 @@
     "notes": "Sublime Merge may be downloaded and evaluated for free, however a license must be purchased for continued use. There is currently no enforced time limit for the evaluation. For more information please see https://www.sublimemerge.com/",
     "architecture": {
         "64bit": {
-            "url": "https://download.sublimetext.com/sublime_merge_build_2045_x64.zip",
-            "hash": "ea0939859e515e63d6655e83367efae00cd92a016d5c5d186a0fa8329250d1ea"
+            "url": "https://download.sublimetext.com/sublime_merge_build_2046_x64.zip",
+            "hash": "cdc15c3244b8c263ba5a5b7d00a8c71295afdd31761f1d704f546c2c2beae3f9"
         }
     },
     "bin": "smerge.exe",

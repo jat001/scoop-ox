@@ -12,5 +12,6 @@ scoop install ox/<app>
 
 ## Apps
 
-- Sublime Text 4 Dev (sublime-text-dev)
-- Sublime Merge Dev (sublime-merge-dev)
+- [ShadowsocksR for Windows](https://github.com/HMBSbige/ShadowsocksR-Windows) (shadowsocksr-windows)
+- [Sublime Text 4 Dev](https://www.sublimetext.com) (sublime-text-dev)
+- [Sublime Merge Dev](https://www.sublimemerge.com/dev) (sublime-merge-dev)

@@ -1,0 +1,57 @@
+{
+    "version": "5.2.4",
+    "description": "An Internet censorship circumventing tunnel tool, forked by Breakwa11 from shadowsocks, maintained now by HMBSbige",
+    "homepage": "https://github.com/HMBSbige/ShadowsocksR-Windows",
+    "license": {
+        "identifier": "GPL-3.0-only",
+        "url": "https://github.com/HMBSbige/ShadowsocksR-Windows/blob/master/LICENSE"
+    },
+    "architecture": {
+        "32bit": {
+            "url": "https://github.com/HMBSbige/ShadowsocksR-Windows/releases/download/5.2.4/ShadowsocksR-Win32-5.2.4.7z",
+            "hash": "FDD30A6A7BAD0860C932B0344FCC2002A1EAA2BD85509BAAEC241D8B17DD5270"
+        },
+        "64bit": {
+            "url": "https://github.com/HMBSbige/ShadowsocksR-Windows/releases/download/5.2.4/ShadowsocksR-Win64-5.2.4.7z",
+            "hash": "036535816DCED6A0904AE545885854D3294FA4E0398D1337AC307FB3D8FE1CE4"
+        }
+    },
+    "extract_dir": "ShadowsocksR",
+    "shortcuts": [
+        [
+            "ShadowsocksR.exe",
+            "ShadowsocksR Windows"
+        ]
+    ],
+    "pre_install": [
+        "   #Create placeholder files",
+        "function CreateFile([String] $file, [String] $content = $null) {",
+        "    if(!(Test-Path \"$persist_dir\\$file\")) {",
+        "        Write-Host \"Create placeholder for shadowsocksr-windows: $file\"",
+        "        New-Item -Force -Path \"$persist_dir\\$file\" -ItemType file -Value $content | Out-Null",
+        "    }",
+        "}",
+        "CreateFile 'gui-config.json' '{}'",
+        "CreateFile 'pac.txt'",
+        "CreateFile 'transfer_log.json' '{}'",
+        "CreateFile 'user-rule.txt'"
+    ],
+    "persist": [
+        "gui-config.json",
+        "pac.txt",
+        "transfer_log.json",
+        "user-rule.txt",
+        "temp"
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "32bit": {
+                "url": "https://github.com/HMBSbige/ShadowsocksR-Windows/releases/download/$version/ShadowsocksR-Win32-$version.7z"
+            },
+            "64bit": {
+                "url": "https://github.com/HMBSbige/ShadowsocksR-Windows/releases/download/$version/ShadowsocksR-Win64-$version.7z"
+            }
+        }
+    }
+}

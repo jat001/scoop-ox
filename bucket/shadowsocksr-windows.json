@@ -3,7 +3,7 @@
     "description": "An Internet censorship circumventing tunnel tool, forked by Breakwa11 from shadowsocks, maintained now by HMBSbige",
     "homepage": "https://github.com/HMBSbige/ShadowsocksR-Windows",
     "license": {
-        "identifier": "GPL-3.0-only",
+        "identifier": "GPL-3.0-or-later",
         "url": "https://github.com/HMBSbige/ShadowsocksR-Windows/blob/master/LICENSE"
     },
     "architecture": {

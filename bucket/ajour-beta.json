@@ -30,9 +30,6 @@
         "jsonpath": "$[0].tag_name"
     },
     "autoupdate": {
-        "url": [
-            "https://github.com/ajour/ajour/releases/download/$version/ajour.exe",
-            "https://github.com/ajour/ajour/releases/download/$version/ajour-opengl.exe"
-        ]
+        "url":"https://github.com/ajour/ajour/releases/download/$version/ajour.exe"
     }
 }

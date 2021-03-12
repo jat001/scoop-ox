@@ -8,9 +8,11 @@ jobs:
     runs-on: windows-latest
     steps:
     - uses: actions/checkout@v2
-    - name: Excavator
-      uses: Ash258/Scoop-GithubActions@stable-win
+    - name: Check new versions and update manifests
+      uses: Ash258/Scoop-GithubActions@main-win
       env:
         GITH_EMAIL: jat@sinosky.org
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         SKIP_UPDATED: '1'
+    - name: Update apps list on readme
+      run: bin\updateReadme.ps1 -Push

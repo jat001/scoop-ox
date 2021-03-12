@@ -1,5 +1,6 @@
 param(
     [Switch] $Append
+    [Switch] $Push
 )
 
 . "$PSScriptRoot\NaturalSort.ps1"
@@ -23,3 +24,9 @@ $search = [Regex]::Escape($search)
 $raw = Get-Content "$dir\README.md" -Raw
 $text = ($Append) ? "$raw$text`r`n" : $raw -Replace "(?s)$search.+$search", $text
 $text | Out-File "$dir\README.md" -NoNewline
+
+if ($Push) {
+    git -C "$dir" add "$dir\README.md"
+    git -C "$dir" commit -m 'Update apps list on readme'
+    git -C "$dir" push origin master
+}

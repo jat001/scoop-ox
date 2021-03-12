@@ -1,6 +1,6 @@
 on:
   schedule:
-  - cron: '0 * * * *'
+  - cron: '* * * * *'
 name: Excavator
 jobs:
   excavate:
@@ -15,4 +15,4 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         SKIP_UPDATED: '1'
     - name: Update apps list on readme
-      run: bin\updateReadme.ps1 -Push
+      run: bin\updateReadme.ps1 -Append -Push

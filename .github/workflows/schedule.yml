@@ -10,8 +10,9 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: Check new versions and update manifests
-      uses: Ash258/Scoop-GithubActions@main-win
+      uses: jat001/Scoop-GithubActions@main-win
       env:
+        GITH_USER: Jat
         GITH_EMAIL: jat@sinosky.org
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         SKIP_UPDATED: '1'

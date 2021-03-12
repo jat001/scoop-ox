@@ -1,8 +1,7 @@
-
 {
     "version": "2.2.0-beta.9",
-    "description": "World of Warcraft addon updater.",
-    "homepage": "https://wowup.io/",
+    "description": "World of Warcraft addon updater. (Beta version)",
+    "homepage": "https://wowup.io",
     "license": {
         "identifier": "GPL-3.0-or-later",
         "url": "https://github.com/WowUp/WowUp/blob/master/LICENSE"

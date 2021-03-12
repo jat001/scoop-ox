@@ -1,8 +1,7 @@
-
 {
     "version": "2.1.2",
     "description": "World of Warcraft addon updater.",
-    "homepage": "https://wowup.io/",
+    "homepage": "https://wowup.io",
     "license": {
         "identifier": "GPL-3.0-or-later",
         "url": "https://github.com/WowUp/WowUp/blob/master/LICENSE"

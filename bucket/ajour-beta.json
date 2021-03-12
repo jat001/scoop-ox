@@ -1,29 +1,28 @@
-
 {
     "version": "0.7.2",
-    "description": "A World of Warcraft addon manager written in Rust.",
-    "homepage": "https://getajour.com/",
+    "description": "A World of Warcraft addon manager written in Rust. (Beta version)",
+    "homepage": "https://getajour.com",
     "license": {
         "identifier": "MIT",
         "url": "https://github.com/ajour/ajour/blob/master/LICENSE"
     },
     "url": [
         "https://github.com/ajour/ajour/releases/download/0.7.2/ajour.exe",
-        "https://github.com/ajour/ajour/releases/download/0.7.2/ajour-opengl.exe"
+        // "https://github.com/ajour/ajour/releases/download/0.7.2/ajour-opengl.exe"
     ],
     "hash": [
         "4676ef43a63aa122c6d90043b462a6c49d70f323bb616f24213660f5583e8b72",
-        "608bf6fcd8fecc5b1476715b3c51d751ba82236aeadd99cef75b021d2bd241ed"
+        // "608bf6fcd8fecc5b1476715b3c51d751ba82236aeadd99cef75b021d2bd241ed"
     ],
     "shortcuts": [
         [
             "ajour.exe",
             "Ajour"
         ],
-        [
-            "ajour-opengl.exe",
-            "Ajour OpenGL"
-        ]
+        // [
+        //     "ajour-opengl.exe",
+        //     "Ajour OpenGL"
+        // ]
     ],
     "checkver": {
         "url": "https://api.github.com/repos/ajour/ajour/releases",

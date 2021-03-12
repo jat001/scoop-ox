@@ -1,0 +1,39 @@
+{
+    "version": "2.2.6",
+    "description": "A derivative of VNC that is tuned to provide peak performance for 3D and video workloads.",
+    "homepage": "https://turbovnc.org",
+    "license": {
+        "identifier": "GPL-2.0-or-later",
+        "url": "https://github.com/TurboVNC/turbovnc/blob/master/LICENSE.txt"
+    },
+    "architecture": {
+        "32bit": {
+            "url": "https://sourceforge.net/projects/turbovnc/files/2.2.6/TurboVNC-2.2.6-x86.exe/download",
+            "hash": "78e78cfbaee34e7c77cc397439c70da9d72418faca2c2b6b59c24d235be99d4f"
+        },
+        "64bit": {
+            "url": "https://sourceforge.net/projects/turbovnc/files/2.2.6/TurboVNC-2.2.6-x64.exe/download",
+            "hash": "6925dff842af532650fe71ea2a1298927e7cd0fefbf642ec7036a30fd467b904"
+        }
+    },
+    "innosetup": true,
+    "shortcuts": [
+        [
+            "vncviewer.exe",
+            "TurboVNC Viewer"
+        ]
+    ],
+    "checkver": {
+        "github": "https://github.com/TurboVNC/turbovnc"
+    },
+    "autoupdate": {
+        "architecture": {
+            "32bit": {
+                "url": "https://sourceforge.net/projects/turbovnc/files/$version/TurboVNC-$version-x86.exe/download"
+            },
+            "64bit": {
+                "url": "https://sourceforge.net/projects/turbovnc/files/$version/TurboVNC-$version-x64.exe/download"
+            }
+        }
+    }
+}

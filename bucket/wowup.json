@@ -22,8 +22,7 @@
         ]
     ],
     "checkver": {
-        "url": "https://api.dev.wowup.io/wowup/latest",
-        "jsonpath": "$.stable.version"
+        "github": "https://github.com/WowUp/WowUp"
     },
     "autoupdate": {
         "url": "https://github.com/WowUp/WowUp/releases/download/v$version/WowUp-Setup-$version.exe#/dl.7z"

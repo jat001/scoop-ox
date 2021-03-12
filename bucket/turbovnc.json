@@ -8,11 +8,11 @@
     },
     "architecture": {
         "32bit": {
-            "url": "https://sourceforge.net/projects/turbovnc/files/2.2.6/TurboVNC-2.2.6-x86.exe/download",
+            "url": "https://downloads.sourceforge.net/projects/turbovnc/files/2.2.6/TurboVNC-2.2.6-x86.exe",
             "hash": "78e78cfbaee34e7c77cc397439c70da9d72418faca2c2b6b59c24d235be99d4f"
         },
         "64bit": {
-            "url": "https://sourceforge.net/projects/turbovnc/files/2.2.6/TurboVNC-2.2.6-x64.exe/download",
+            "url": "https://downloads.sourceforge.net/projects/turbovnc/files/2.2.6/TurboVNC-2.2.6-x64.exe",
             "hash": "6925dff842af532650fe71ea2a1298927e7cd0fefbf642ec7036a30fd467b904"
         }
     },
@@ -29,10 +29,10 @@
     "autoupdate": {
         "architecture": {
             "32bit": {
-                "url": "https://sourceforge.net/projects/turbovnc/files/$version/TurboVNC-$version-x86.exe/download"
+                "url": "https://downloads.sourceforge.net/projects/turbovnc/files/$version/TurboVNC-$version-x86.exe"
             },
             "64bit": {
-                "url": "https://sourceforge.net/projects/turbovnc/files/$version/TurboVNC-$version-x64.exe/download"
+                "url": "https://downloads.sourceforge.net/projects/turbovnc/files/$version/TurboVNC-$version-x64.exe"
             }
         }
     }

@@ -2,6 +2,8 @@ param(
     [Switch] $Append
 )
 
+. "$PSScriptRoot\NaturalSort.ps1"
+
 $dir = Resolve-Path "$PSScriptRoot\.."
 $url = 'https://github.com/jat001/scoop-ox/tree/master/bucket'
 
@@ -10,7 +12,7 @@ $text = "$search
 Name | Description | Version | License
 --- | --- | --- | ---
 "
-Get-ChildItem "$dir\bucket" | ForEach-Object -Process {
+Sort-Naturally (Get-ChildItem "$dir\bucket") | ForEach-Object -Process {
     $name = ($_.Name -Split '.', -2, 'SimpleMatch')[0]
     $data = Get-Content $_.FullName | ConvertFrom-Json
     $text += "[$name]($($data.homepage)) | $($data.description) | [$($data.version)]($url/$($_.Name)) | [$($data.license.identifier)]($($data.license.url))`r`n"

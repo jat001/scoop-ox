@@ -1,5 +1,5 @@
 param(
-    [Switch] $Append
+    [Switch] $Append,
     [Switch] $Push
 )
 

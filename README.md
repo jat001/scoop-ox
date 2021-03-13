@@ -1,11 +1,10 @@
-# 🐂 Ox
+# 🐂 Ox [![Build status](https://ci.appveyor.com/api/projects/status/ylp3aj8mdtmpif3c?svg=true)](https://ci.appveyor.com/project/Jat/scoop-ox) [![Excavator status](https://github.com/jat001/scoop-ox/actions/workflows/schedule.yml/badge.svg)](https://github.com/jat001/scoop-ox/actions/workflows/schedule.yml)
 
 > The [Ox](https://en.wikipedia.org/wiki/Ox_(zodiac)) (牛) is the second of the 12-year periodic sequence (cycle) of animals which appear in the Chinese zodiac related to the Chinese calendar, and also appears in related calendar systems.
 
-[![Build status](https://ci.appveyor.com/api/projects/status/ylp3aj8mdtmpif3c?svg=true)](https://ci.appveyor.com/project/Jat/scoop-ox)
-[![Excavator status](https://github.com/jat001/scoop-ox/actions/workflows/schedule.yml/badge.svg)](https://github.com/jat001/scoop-ox/actions/workflows/schedule.yml)
-
 ## Usage
+
+⭐ Recommend to use [Shovel](https://github.com/Ash258/Scoop-Core), a forked version of [Scoop](https://scoop.sh) which is under active development. ⭐
 
 ```powershell
 scoop bucket add ox https://github.com/jat001/scoop-ox.git

@@ -9,7 +9,10 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: Pull Request Validator
-      uses: Ash258/Scoop-GithubActions@stable-win
+      uses: jat001/Scoop-GithubActions@main-win
       env:
+        GITH_USER: Jat
         GITH_EMAIL: jat@sinosky.org
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        SHOVEL: '1'
+        SCOOP_BRANCH: 'NEW'

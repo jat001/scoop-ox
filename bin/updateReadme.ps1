@@ -24,7 +24,7 @@ $text += "$search"
 $search = [Regex]::Escape($search)
 
 $orig = Get-Content "$dir\README.md" -Raw
-$text = ($Append) ? "$orig$text`r`n" : $orig -Replace "(?s)$search.+$search", $text
+$text = ($Append) ? "$orig$text`r`n" : $orig -Replace "(?s)$search.*?$search", $text
 $text | Out-File "$dir\README.md" -NoNewline
 
 if ($Push) {

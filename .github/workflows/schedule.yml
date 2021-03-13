@@ -16,5 +16,7 @@ jobs:
         GITH_EMAIL: jat@sinosky.org
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         SKIP_UPDATED: '1'
+        SHOVEL: '1'
+        SCOOP_BRANCH: 'NEW'
     - name: Update apps list on readme
       run: bin\updateReadme.ps1 -Push

@@ -16,7 +16,7 @@ scoop install ox/<app>
 Name | Description | Version | License
 --- | --- | --- | ---
 [ajour](https://getajour.com) | A World of Warcraft addon manager written in Rust. | [0.7.2](https://github.com/jat001/scoop-ox/tree/master/bucket/ajour.json) | [MIT](https://github.com/ajour/ajour/blob/master/LICENSE)
-[ajour-beta](https://getajour.com) | A World of Warcraft addon manager written in Rust. (Beta version) | [0.7.2](https://github.com/jat001/scoop-ox/tree/master/bucket/ajour-beta.json) | [MIT](https://github.com/ajour/ajour/blob/master/LICENSE)
+[ajour-beta](https://getajour.com) | A World of Warcraft addon manager written in Rust. (Beta version) | [0.8.0-rc.1](https://github.com/jat001/scoop-ox/tree/master/bucket/ajour-beta.json) | [MIT](https://github.com/ajour/ajour/blob/master/LICENSE)
 [shadowsocksr-windows](https://github.com/HMBSbige/ShadowsocksR-Windows) | An Internet censorship circumventing tunnel tool, forked by Breakwa11 from shadowsocks, maintained now by HMBSbige. | [5.2.4](https://github.com/jat001/scoop-ox/tree/master/bucket/shadowsocksr-windows.json) | [GPL-3.0-or-later](https://github.com/HMBSbige/ShadowsocksR-Windows/blob/master/LICENSE)
 [sublime-merge-dev](https://www.sublimemerge.com/dev) | A Git client with snappy UI, three-way merge tool, side-by-side diffs, syntax highlighting, and more. (Dev version) | [2048](https://github.com/jat001/scoop-ox/tree/master/bucket/sublime-merge-dev.json) | [Shareware](https://www.sublimehq.com/eula)
 [sublime-text-dev](https://www.sublimetext.com) | A sophisticated text editor for code, markup and prose. (ST4 dev veriosn) | [4098](https://github.com/jat001/scoop-ox/tree/master/bucket/sublime-text-dev.json) | [Shareware](https://www.sublimetext.com/eula)

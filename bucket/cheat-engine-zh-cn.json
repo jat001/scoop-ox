@@ -1,0 +1,36 @@
+{
+    "version": "7.2",
+    "description": "Tool for modifying/debugging single player games and applications.",
+    "homepage": "https://cheatengine.org",
+    "license": {
+        "identifier": "Freeware",
+        "url": "https://github.com/cheat-engine/cheat-engine/issues/60#issuecomment-467317576"
+    },
+    "url": [
+        "https://d2u4d080ckhplh.cloudfront.net/f/CheatEngine/CheatEngine72.exe#/CheatEngine.exe",
+        "https://cheatengine.org/download/zh_CN.rar#/zh_CN.exe"
+    ],
+    "hash": [
+        "3c1ead7f3d812e2a3cf09c382ecc71212f5c86ce6a2da7f4c7033925241ad53d",
+        "58f1f16f743060f76c7d70a916f504e2f93ed25b5bf5313b3eb6767f1d5918c1"
+    ],
+    "installer": {
+        "script": [
+            "Expand-InnoArchive (Join-Path $dir CheatEngine.exe) -Removal",
+            "Expand-7zipArchive (Join-Path $dir zh_CN.exe) (Join-Path $dir languages) -Removal"
+        ]
+    },
+    "shortcuts": [
+        [
+            "Cheat Engine.exe",
+            "Cheat Engine",
+            "--LANG zh_CN"
+        ]
+    ],
+    "checkver": {
+        "github": "https://github.com/cheat-engine/cheat-engine"
+    },
+    "autoupdate": {
+        "url": "https://d2u4d080ckhplh.cloudfront.net/f/CheatEngine/CheatEngine$cleanVersion.exe#/CheatEngine.exe"
+    }
+}

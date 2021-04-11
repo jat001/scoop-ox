@@ -1,5 +1,5 @@
 {
-    "version": "5.2.4",
+    "version": "5.2.5",
     "description": "An Internet censorship circumventing tunnel tool, forked by Breakwa11 from shadowsocks, maintained now by HMBSbige.",
     "homepage": "https://github.com/HMBSbige/ShadowsocksR-Windows",
     "license": {
@@ -8,12 +8,12 @@
     },
     "architecture": {
         "32bit": {
-            "url": "https://github.com/HMBSbige/ShadowsocksR-Windows/releases/download/5.2.4/ShadowsocksR-Win32-5.2.4.7z",
-            "hash": "FDD30A6A7BAD0860C932B0344FCC2002A1EAA2BD85509BAAEC241D8B17DD5270"
+            "url": "https://github.com/HMBSbige/ShadowsocksR-Windows/releases/download/5.2.5/ShadowsocksR-Win32-5.2.5.7z",
+            "hash": "990cc4f865991e8c1591500433b2ea9ba848ac45c70d47d67c853cf559e66ad3"
         },
         "64bit": {
-            "url": "https://github.com/HMBSbige/ShadowsocksR-Windows/releases/download/5.2.4/ShadowsocksR-Win64-5.2.4.7z",
-            "hash": "036535816DCED6A0904AE545885854D3294FA4E0398D1337AC307FB3D8FE1CE4"
+            "url": "https://github.com/HMBSbige/ShadowsocksR-Windows/releases/download/5.2.5/ShadowsocksR-Win64-5.2.5.7z",
+            "hash": "56c99e67c8ea0311e3fd59917cfd150375a9dfbcf0be4f46e9e632731ddf23c4"
         }
     },
     "extract_dir": "ShadowsocksR",

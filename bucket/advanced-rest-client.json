@@ -1,0 +1,42 @@
+{
+    "version": "15.0.7",
+    "description": "A developer tool to test a HTTP request.",
+    "homepage": "https://install.advancedrestclient.com",
+    "license": {
+        "identifier": "Apache License 2.0",
+        "url": "https://github.com/advanced-rest-client/arc-electron/blob/master/LICENSE.md"
+    },
+    "url": "https://github.com/advanced-rest-client/arc-electron/releases/download/v15.0.7/arc-setup.exe#/dl.7z",
+    "hash": "4b42d970d4d51ac9fc1df873c02b2bcf20b9a38d5f49915d5edea6d10eeb32f7",
+    "extract_dir": "$PLUGINSDIR",
+    "architecture": {
+        "32bit": {
+            "installer": {
+                "script": [
+                    "Remove-Item \"$dir\\*\" -Exclude 'app-32.7z'",
+                    "Expand-7zipArchive \"$dir\\app-32.7z\" \"$dir\" -Removal"
+                ]
+            }
+        },
+        "64bit": {
+            "installer": {
+                "script": [
+                    "Remove-Item \"$dir\\*\" -Exclude 'app-64.7z'",
+                    "Expand-7zipArchive \"$dir\\app-64.7z\" \"$dir\" -Removal"
+                ]
+            }
+        }
+    },
+    "shortcuts": [
+        [
+            "AdvancedRestClient.exe",
+            "Advanced REST Client"
+        ]
+    ],
+    "checkver": {
+        "github": "https://github.com/advanced-rest-client/arc-electron"
+    },
+    "autoupdate": {
+        "url": "https://github.com/advanced-rest-client/arc-electron/releases/download/v$version/arc-setup.exe#/dl.7z"
+    }
+}

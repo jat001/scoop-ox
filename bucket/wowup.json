@@ -1,13 +1,13 @@
 {
-    "version": "2.2.2",
+    "version": "2.3.0",
     "description": "World of Warcraft addon updater.",
     "homepage": "https://wowup.io",
     "license": {
         "identifier": "GPL-3.0-or-later",
         "url": "https://github.com/WowUp/WowUp/blob/master/LICENSE"
     },
-    "url": "https://github.com/WowUp/WowUp/releases/download/v2.2.2/WowUp-Setup-2.2.2.exe#/dl.7z",
-    "hash": "64eb213c2a83d9991472724cd2fbe226d87be93d9e5f6cf6cfcc8d4af295adb7",
+    "url": "https://github.com/WowUp/WowUp/releases/download/v2.3.0/WowUp-Setup-2.3.0.exe#/dl.7z",
+    "hash": "d021f26b20c6234a095e4e59109e0e982528289227e5d97740d2034b04426a32",
     "extract_dir": "$PLUGINSDIR",
     "installer": {
         "script": [

@@ -1,0 +1,17 @@
+{
+    "version": "3320",
+    "description": "An addon manager that allows you to browse, install, and update your addons.",
+    "homepage": "https://www.tukui.org/download.php?client=win",
+    "license": {
+        "identifier": "Freeware"
+    },
+    "url": "https://www.tukui.org/client/windows/tukui-windows-3320.zip",
+    "hash": "206b8a8b04ddb0f023b2ea6bb0d42b43d4d754e4722884a5244088b935b0835b",
+    "pre_install": "Expand-MsiArchive (Join-Path $dir 'Tukui Client.msi') -Removal",
+    "shortcuts": [
+        [
+            "Tukui Client.exe",
+            "Tukui Client"
+        ]
+    ]
+}

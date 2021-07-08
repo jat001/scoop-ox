@@ -1,13 +1,13 @@
 {
-    "version": "2.4.2",
+    "version": "2.5.0-beta.1",
     "description": "World of Warcraft addon updater. (Beta version)",
     "homepage": "https://wowup.io",
     "license": {
         "identifier": "GPL-3.0-or-later",
         "url": "https://github.com/WowUp/WowUp/blob/master/LICENSE"
     },
-    "url": "https://github.com/WowUp/WowUp/releases/download/v2.4.2/WowUp-Setup-2.4.2.exe#/dl.7z",
-    "hash": "d0d0f3468ad0fbfde184134ae387e6e250b02a77efc4fb58faf4450889e0948d",
+    "url": "https://github.com/WowUp/WowUp/releases/download/v2.5.0-beta.1/WowUp-Setup-2.5.0-beta.1.exe#/dl.7z",
+    "hash": "16f823518ee66bd95101459c970046dd0c5a4ea8790d3f1dbe43fa43e2ff726c",
     "extract_dir": "$PLUGINSDIR",
     "installer": {
         "script": [

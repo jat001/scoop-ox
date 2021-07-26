@@ -16,8 +16,8 @@ scoop install ox/<app>
 Name | Description | Version | License
 --- | --- | --- | ---
 [advanced-rest-client](https://install.advancedrestclient.com) | A developer tool to test a HTTP request. | [16.0.1](https://github.com/jat001/scoop-ox/tree/master/bucket/advanced-rest-client.json) | [Apache License 2.0](https://github.com/advanced-rest-client/arc-electron/blob/master/LICENSE.md)
-[ajour](https://getajour.com) | A World of Warcraft addon manager written in Rust. | [1.2.4](https://github.com/jat001/scoop-ox/tree/master/bucket/ajour.json) | [MIT](https://github.com/ajour/ajour/blob/master/LICENSE)
-[ajour-beta](https://getajour.com) | A World of Warcraft addon manager written in Rust. (Beta version) | [1.2.4](https://github.com/jat001/scoop-ox/tree/master/bucket/ajour-beta.json) | [MIT](https://github.com/ajour/ajour/blob/master/LICENSE)
+[ajour](https://getajour.com) | A World of Warcraft addon manager written in Rust. | [1.2.5](https://github.com/jat001/scoop-ox/tree/master/bucket/ajour.json) | [MIT](https://github.com/ajour/ajour/blob/master/LICENSE)
+[ajour-beta](https://getajour.com) | A World of Warcraft addon manager written in Rust. (Beta version) | [1.2.5](https://github.com/jat001/scoop-ox/tree/master/bucket/ajour-beta.json) | [MIT](https://github.com/ajour/ajour/blob/master/LICENSE)
 [cheat-engine-zh-cn](https://cheatengine.org) | Tool for modifying/debugging single player games and applications. | [7.2](https://github.com/jat001/scoop-ox/tree/master/bucket/cheat-engine-zh-cn.json) | [Freeware](https://github.com/cheat-engine/cheat-engine/issues/60#issuecomment-467317576)
 [heybox-workshop](https://www.xiaoheihe.cn/workshop) | 黑盒工坊是一款专为魔兽玩家定制、永久免费的插件管理软件。 | [1.6.5.1](https://github.com/jat001/scoop-ox/tree/master/bucket/heybox-workshop.json) | [Freeware]()
 [shadowsocksr-windows](https://github.com/HMBSbige/ShadowsocksR-Windows) | An Internet censorship circumventing tunnel tool, forked by Breakwa11 from shadowsocks, maintained now by HMBSbige. | [5.3.0](https://github.com/jat001/scoop-ox/tree/master/bucket/shadowsocksr-windows.json) | [GPL-3.0-or-later](https://github.com/HMBSbige/ShadowsocksR-Windows/blob/master/LICENSE)

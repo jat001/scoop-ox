@@ -1,5 +1,5 @@
 {
-    "version": "7.2",
+    "version": "7.3",
     "description": "Tool for modifying/debugging single player games and applications.",
     "homepage": "https://cheatengine.org",
     "license": {
@@ -7,11 +7,11 @@
         "url": "https://github.com/cheat-engine/cheat-engine/issues/60#issuecomment-467317576"
     },
     "url": [
-        "https://d2u4d080ckhplh.cloudfront.net/f/CheatEngine/CheatEngine72.exe#/CheatEngine.exe",
+        "https://d2u4d080ckhplh.cloudfront.net/f/CheatEngine/CheatEngine73.exe#/CheatEngine.exe",
         "https://cheatengine.org/download/zh_CN.rar#/zh_CN.exe"
     ],
     "hash": [
-        "3c1ead7f3d812e2a3cf09c382ecc71212f5c86ce6a2da7f4c7033925241ad53d",
+        "e2d291bbbf51905f771dca5b1033a4a5749880b6e96f0d99b7136aa26c18de83",
         "58f1f16f743060f76c7d70a916f504e2f93ed25b5bf5313b3eb6767f1d5918c1"
     ],
     "installer": {

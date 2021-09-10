@@ -1,13 +1,13 @@
 {
-    "version": "1.3.0",
+    "version": "1.3.1-rc.1",
     "description": "A World of Warcraft addon manager written in Rust. (Beta version)",
     "homepage": "https://getajour.com",
     "license": {
         "identifier": "MIT",
         "url": "https://github.com/ajour/ajour/blob/master/LICENSE"
     },
-    "url": "https://github.com/ajour/ajour/releases/download/1.3.0/ajour.exe",
-    "hash": "59cba2266dba8caee8f5e3b830aa4c24dad25ffe333dfa657b2c005add351914",
+    "url": "https://github.com/ajour/ajour/releases/download/1.3.1-rc.1/ajour.exe",
+    "hash": "a3756849fc0042ea42f293602b1b10ee6d7ef553bf44ecae44ee3cb385ab4a94",
     "shortcuts": [
         [
             "ajour.exe",

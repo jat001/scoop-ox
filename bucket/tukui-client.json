@@ -13,5 +13,12 @@
             "Tukui Client.exe",
             "Tukui Client"
         ]
-    ]
+    ],
+    "checkver": {
+        "url": "https://www.tukui.org/download.php?client=win",
+        "regex": "Current version is <b class=\"Premium\">(\\d+)</b>"
+    },
+    "autoupdate": {
+        "url": "https://www.tukui.org/client/windows/tukui-windows-$version.zip"
+    }
 }

@@ -14,7 +14,7 @@
         ]
     ],
     "checkver": {
-        "script": "(Invoke-WebRequest -Uri \"https://accoriapi.xiaoheihe.cn/wow/download/\" -MaximumRedirection 0 -SkipHttpErrorCheck -ErrorAction:SilentlyContinue).Headers.Location",
+        "script": "(Invoke-WebRequest -Uri 'https://accoriapi.xiaoheihe.cn/wow/download/' -MaximumRedirection 0 -SkipHttpErrorCheck -ErrorAction:SilentlyContinue).Headers.Location",
         "regex": "([\\d.]+)\\.exe"
     },
     "autoupdate": {

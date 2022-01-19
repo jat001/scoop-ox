@@ -1,12 +1,12 @@
 {
-    "version": "1.8.1.4",
+    "version": "1.8.2.4",
     "description": "黑盒工坊是一款专为魔兽玩家定制、永久免费的插件管理软件。",
     "homepage": "https://www.xiaoheihe.cn/workshop",
     "license": {
         "identifier": "Freeware"
     },
-    "url": "https://cdn.max-c.com/heybox-workshop/wow_installer_1.8.1.4.exe#/dl.7z",
-    "hash": "93c5bfc88f01bcdc95d8fe1ae59e07b4929c21b8a87fc19d4e934c4e85fa496f",
+    "url": "https://cdn.max-c.com/heybox-workshop/wow_installer_1.8.2.4.exe#/dl.7z",
+    "hash": "d87981d32ac6a55caf0311edb0c1f6e21bbe2fde28c8f9ceb3ef29c2009be836",
     "shortcuts": [
         [
             "heyboxwow.exe",

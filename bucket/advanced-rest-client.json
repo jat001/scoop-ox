@@ -1,13 +1,13 @@
 {
-    "version": "17.0.7",
+    "version": "17.0.8",
     "description": "A developer tool to test a HTTP request.",
     "homepage": "https://install.advancedrestclient.com",
     "license": {
         "identifier": "Apache License 2.0",
         "url": "https://github.com/advanced-rest-client/arc-electron/blob/master/LICENSE.md"
     },
-    "url": "https://github.com/advanced-rest-client/arc-electron/releases/download/v17.0.7/arc-setup.exe#/dl.7z",
-    "hash": "1d26658c7858532905d1df0179255f3f9378a05a5b5268eafe977c908e7a74b3",
+    "url": "https://github.com/advanced-rest-client/arc-electron/releases/download/v17.0.8/arc-setup.exe#/dl.7z",
+    "hash": "333421514a8b7a58110b9b6b23db0bd93bc15e4bbc5185748aa6cda0c0537ae6",
     "extract_dir": "$PLUGINSDIR",
     "architecture": {
         "32bit": {

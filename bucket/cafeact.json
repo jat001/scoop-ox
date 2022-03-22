@@ -13,6 +13,12 @@
             "CafeACT"
         ]
     ],
+    "persist": [
+        "AppData",
+        "Dpshow",
+        "Plugins",
+        "Temp"
+    ],
     "checkver": {
         "script": "(Invoke-WebRequest -Uri 'https://cafemenu.lv5.one/act/update/download?channel=release&variant=sfx&version=latest' -MaximumRedirection 0 -SkipHttpErrorCheck -ErrorAction:SilentlyContinue).Headers.Location",
         "regex": "([\\d.]+)_sfx\\.exe"

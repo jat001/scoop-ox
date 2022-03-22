@@ -31,6 +31,10 @@
             "vncviewer.ico"
         ]
     ],
+    "checkver": {
+        "disable": true,
+        "github": "https://github.com/TurboVNC/turbovnc"
+    },
     "autoupdate": {
         "architecture": {
             "32bit": {

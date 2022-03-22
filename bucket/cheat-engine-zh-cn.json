@@ -31,6 +31,6 @@
         "github": "https://github.com/cheat-engine/cheat-engine"
     },
     "autoupdate": {
-        "url": "https://d2u4d080ckhplh.cloudfront.net/f/CheatEngine/CheatEngine$cleanVersion.exe#/CheatEngine.exe"
+        "url": "https://github.com/cheat-engine/cheat-engine/releases/download/$version/CheatEngine$cleanVersion.exe"
     }
 }

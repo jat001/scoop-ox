@@ -19,7 +19,7 @@
     },
     "checkver": {
         "url": "https://www.oracle.com/java/technologies/downloads/",
-        "regex": "Java SE Development Kit ((?<major>\\d+)[\\d.]+) downloads",
+        "regex": "Java SE Development Kit ((?<major>\\d+)[\\d.]*) downloads",
         "useragent": "Mozilla/5.0 (Windows NT 10.0; Trident/7.0; rv:11.0) like Gecko"
     },
     "autoupdate": {

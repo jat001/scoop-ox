@@ -1,5 +1,5 @@
 {
-    "version": "3.0",
+    "version": "2.2.90",
     "description": "A derivative of VNC that is tuned to provide peak performance for 3D and video workloads.",
     "homepage": "https://turbovnc.org",
     "license": {
@@ -8,11 +8,11 @@
     },
     "architecture": {
         "32bit": {
-            "url": "https://downloads.sourceforge.net/projects/turbovnc/files/3.0/TurboVNC-3.0-x86.exe",
+            "url": "https://sourceforge.net/projects/turbovnc/files/2.2.90%20(3.0%20beta1)/TurboVNC-2.2.90-x86.exe",
             "hash": "251a85b3bac687974f360d3796048c20ded3bf0bd69e0d1cfd1db23d013f89ed"
         },
         "64bit": {
-            "url": "https://downloads.sourceforge.net/projects/turbovnc/files/3.0/TurboVNC-3.0-x64.exe",
+            "url": "https://sourceforge.net/projects/turbovnc/files/2.2.90%20(3.0%20beta1)/TurboVNC-2.2.90-x64.exe",
             "hash": "251a85b3bac687974f360d3796048c20ded3bf0bd69e0d1cfd1db23d013f89ed"
         }
     },
@@ -23,16 +23,13 @@
             "TurboVNC Viewer"
         ]
     ],
-    "checkver": {
-        "github": "https://github.com/TurboVNC/turbovnc"
-    },
     "autoupdate": {
         "architecture": {
             "32bit": {
-                "url": "https://downloads.sourceforge.net/projects/turbovnc/files/$version/TurboVNC-$version-x86.exe"
+                "url": "https://sourceforge.net/projects/turbovnc/files/$version/TurboVNC-$version-x86.exe"
             },
             "64bit": {
-                "url": "https://downloads.sourceforge.net/projects/turbovnc/files/$version/TurboVNC-$version-x64.exe"
+                "url": "https://sourceforge.net/projects/turbovnc/files/$version/TurboVNC-$version-x64.exe"
             }
         }
     }

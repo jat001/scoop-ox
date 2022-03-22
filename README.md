@@ -4,7 +4,7 @@
 
 ## Usage
 
-:star: Recommend to use [Shovel](https://github.com/Ash258/Scoop-Core), a forked version of [Scoop](https://scoop.sh) which is under active development. :star:
+:star: Recommend to use [Shovel](https://github.com/Ash258/Scoop-Core/tree/NEW), a forked version of [Scoop](https://scoop.sh) which is under active development. :star:
 
 ```powershell
 scoop bucket add ox https://github.com/jat001/scoop-ox.git

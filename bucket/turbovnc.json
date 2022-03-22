@@ -19,8 +19,16 @@
     "innosetup": true,
     "shortcuts": [
         [
-            "vncviewer.exe",
-            "TurboVNC Viewer"
+            "vncviewerw.bat",
+            "TurboVNC Viewer",
+            "",
+            "vncviewer.ico"
+        ],
+        [
+            "vncviewerw.bat",
+            "TurboVNC Viewer (Listen Mode)",
+            "-listen",
+            "vncviewer.ico"
         ]
     ],
     "autoupdate": {

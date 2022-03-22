@@ -1,12 +1,12 @@
 {
-    "version": "3.8.6.1",
+    "version": "3.8.6.2",
     "description": "ACT 国服整合，自带超方便插件中心的 Advanced Combat Tracker 整合版。",
     "homepage": "https://ffcafe.org/act/",
     "license": {
         "identifier": "Freeware"
     },
-    "url": "https://act-aliyun.1slb.net/act/update/download/3.8.6.1_sfx.exe#/dl.7z",
-    "hash": "1b4f748a68032bdb6b0eb38191bbabe175b9ba05b0dc13bf20b19964e0f8437f",
+    "url": "https://act-aliyun.1slb.net/act/update/download/3.8.6.2_sfx.exe#/dl.7z",
+    "hash": "1d9be23958f97ac76758d25009e6c3a4cd8cf0380701110a12154da42d85be19",
     "shortcuts": [
         [
             "CafeACT.exe",

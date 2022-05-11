@@ -23,6 +23,6 @@
         "regex": "([\\d.]+)\\.exe"
     },
     "autoupdate": {
-        "url": "https://act-aliyun.1slb.net/act/update/download/$version_sfx.exe#/dl.7z"
+        "url": "https://dldir1.qq.com/wework/work_weixin/WeCom_$version.exe#/dl.7z"
     }
 }

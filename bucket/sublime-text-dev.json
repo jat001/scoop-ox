@@ -1,5 +1,5 @@
 {
-    "version": "4134",
+    "version": "4136",
     "description": "A sophisticated text editor for code, markup and prose. (ST4 dev veriosn)",
     "homepage": "https://www.sublimetext.com",
     "license": {
@@ -10,12 +10,12 @@
     "architecture": {
         "64bit": {
             "url": [
-                "https://download.sublimetext.com/sublime_text_build_4134_x64.zip",
+                "https://download.sublimetext.com/sublime_text_build_4136_x64.zip",
                 "https://raw.githubusercontent.com/jat001/scoop-ox/master/scripts/sublime-text/install-context.reg",
                 "https://raw.githubusercontent.com/jat001/scoop-ox/master/scripts/sublime-text/uninstall-context.reg"
             ],
             "hash": [
-                "586eb1cdd51a4035b66b1831294b7f526cfe23352e5cc0e696b6cc051b43b144",
+                "33ec90f4f07578d090b060fcb1b8323e13860d38290426a790996be209c16176",
                 "61b19e2538c419368118efbc6b7dd6662e15b8c51a47b037fc1573fddc23fb38",
                 "2ad7330b66a1908bdacfac86536a342dc39116994e8325bed432d997b5e2d350"
             ]

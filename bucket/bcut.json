@@ -1,0 +1,23 @@
+{
+    "version": "2.7.0",
+    "description": "必剪，B站官方出品。",
+    "homepage": "https://bcut.drawyoo.com",
+    "license": {
+        "identifier": "Freeware"
+    },
+    "url": "http://boss.hdslb.com/material/static/d1f46d26ec7de30b6539dbcb11bfb98d/Bcut-Win2.7.0.exe",
+    "hash": "fa0670a816a31d4e627ccc40644a89ebb86bb06d464ae09351f5121cf73275eb",
+    "shortcuts": [
+        [
+            "BCUT.exe",
+            "必剪"
+        ]
+    ],
+    "checkver": {
+        "url": "https://bcut.drawyoo.com/x/bcut/pc/upgrade?version=0",
+        "jsonpath": "$.data.version"
+    },
+    "autoupdate": {
+        "url": "http://boss.hdslb.com/material/static/d1f46d26ec7de30b6539dbcb11bfb98d/Bcut-Win$version.exe"
+    }
+}

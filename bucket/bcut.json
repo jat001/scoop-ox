@@ -1,12 +1,13 @@
 {
     "version": "2.7.0",
     "description": "必剪，B站官方出品。",
-    "homepage": "https://bcut.drawyoo.com",
+    "homepage": "https://bcut.bilibili.cn",
     "license": {
         "identifier": "Freeware"
     },
-    "url": "http://boss.hdslb.com/material/static/d1f46d26ec7de30b6539dbcb11bfb98d/Bcut-Win2.7.0.exe",
-    "hash": "fa0670a816a31d4e627ccc40644a89ebb86bb06d464ae09351f5121cf73275eb",
+    "url": "https://boss.hdslb.com/material/static/be99faf2c6c967ee0982a87238aa8a97/Bcut-Win3.0.0-signed.exe",
+    "hash": "e7f6cba3506b456e3a3cd199b0fc76141b23de3a2cfe21197d84978994e5583d",
+    "innosetup": true,
     "shortcuts": [
         [
             "BCUT.exe",
@@ -18,6 +19,6 @@
         "jsonpath": "$.data.version"
     },
     "autoupdate": {
-        "url": "http://boss.hdslb.com/material/static/d1f46d26ec7de30b6539dbcb11bfb98d/Bcut-Win$version.exe"
+        "url": "https://boss.hdslb.com/material/static/be99faf2c6c967ee0982a87238aa8a97/Bcut-Win3.0.0-signed.exe"
     }
 }

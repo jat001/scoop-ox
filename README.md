@@ -18,7 +18,7 @@ Name | Description | Version | License
 [advanced-rest-client](https://install.advancedrestclient.com) | A developer tool to test a HTTP request. | [17.0.9](https://github.com/jat001/scoop-ox/tree/master/bucket/advanced-rest-client.json) | [Apache License 2.0](https://github.com/advanced-rest-client/arc-electron/blob/master/LICENSE.md)
 [ajour](https://getajour.com) | A World of Warcraft addon manager written in Rust. | [1.3.2](https://github.com/jat001/scoop-ox/tree/master/bucket/ajour.json) | [MIT](https://github.com/ajour/ajour/blob/master/LICENSE)
 [ajour-beta](https://getajour.com) | A World of Warcraft addon manager written in Rust. (Beta version) | [1.3.2](https://github.com/jat001/scoop-ox/tree/master/bucket/ajour-beta.json) | [MIT](https://github.com/ajour/ajour/blob/master/LICENSE)
-[bcut](https://bcut.bilibili.cn) | 必剪，B站官方出品。 | [2.7.0](https://github.com/jat001/scoop-ox/tree/master/bucket/bcut.json) | [Freeware]()
+[bcut](https://bcut.bilibili.cn) | 必剪，B站官方出品。 | [3.1.0](https://github.com/jat001/scoop-ox/tree/master/bucket/bcut.json) | [Freeware]()
 [cafeact](https://ffcafe.org/act/) | ACT 国服整合，自带超方便插件中心的 Advanced Combat Tracker 整合版。 | [3.9.8.1](https://github.com/jat001/scoop-ox/tree/master/bucket/cafeact.json) | [Freeware]()
 [cheat-engine-zh-cn](https://cheatengine.org) | Tool for modifying/debugging single player games and applications. | [7.4](https://github.com/jat001/scoop-ox/tree/master/bucket/cheat-engine-zh-cn.json) | [Freeware](https://github.com/cheat-engine/cheat-engine/issues/60#issuecomment-467317576)
 [heybox-workshop](https://www.xiaoheihe.cn/workshop) | 黑盒工坊是一款专为魔兽玩家定制、永久免费的插件管理软件。 | [1.9.7.1](https://github.com/jat001/scoop-ox/tree/master/bucket/heybox-workshop.json) | [Freeware]()

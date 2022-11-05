@@ -5,8 +5,8 @@
     "license": {
         "identifier": "Freeware"
     },
-    "url": "https://boss.hdslb.com/material/static/be99faf2c6c967ee0982a87238aa8a97/Bcut-Win3.0.0-signed.exe",
-    "hash": "e7f6cba3506b456e3a3cd199b0fc76141b23de3a2cfe21197d84978994e5583d",
+    "url": "https://boss.hdslb.com/material/static/2ffe4b449dc2f41c4ac2e66f09789235/Bcut-Win3.1.0.exe",
+    "hash": "b3b0b5ec56da1ecf32ca885fb9230846a66dcc3ee2c3b0a823dc28024537513b",
     "innosetup": true,
     "shortcuts": [
         [
@@ -15,10 +15,11 @@
         ]
     ],
     "checkver": {
-        "url": "https://bcut.drawyoo.com/x/bcut/pc/upgrade?version=0",
-        "jsonpath": "$.data.version"
+        "url": "https://bcut.bilibili.cn/x/bcut/pc/upgrade?version=0",
+        "jsonpath": "$.data.package_download_url",
+        "regex": "https?(?<url>.+Bcut-Win(?<version>[\\d.]+)\\.exe)"
     },
     "autoupdate": {
-        "url": "https://boss.hdslb.com/material/static/be99faf2c6c967ee0982a87238aa8a97/Bcut-Win3.0.0-signed.exe"
+        "url": "https$matchUrl"
     }
 }

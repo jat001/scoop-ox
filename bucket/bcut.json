@@ -1,12 +1,12 @@
 {
-    "version": "3.3.0",
+    "version": "3.3.5",
     "description": "必剪，B站官方出品。",
     "homepage": "https://bcut.bilibili.cn",
     "license": {
         "identifier": "Freeware"
     },
-    "url": "https://boss.hdslb.com/material/static/fd93681c007d02cf9c5684f67fcff8ee/Bcut-Win3.3.0.exe",
-    "hash": "ecdba09e3430c4ab39a759a801fadee12a8307ba5ac32c545bdcbe9963a95bba",
+    "url": "https://boss.hdslb.com/material/static/a411ef69f2d6b49d15b5dbcf10df25d1/Bcut-Win3.3.5.exe",
+    "hash": "3bc7d6e36030360a1f3597c0c4bbc406c95a2b7f93be848ead2bab1208af5e76",
     "innosetup": true,
     "shortcuts": [
         [

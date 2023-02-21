@@ -21,7 +21,7 @@ Name | Description | Version | License
 [bcut](https://bcut.bilibili.cn) | 必剪，B站官方出品。 | [3.3.5](https://github.com/jat001/scoop-ox/tree/master/bucket/bcut.json) | [Freeware]()
 [cafeact](https://ffcafe.org/act/) | ACT 国服整合，自带超方便插件中心的 Advanced Combat Tracker 整合版。 | [3.9.8.1](https://github.com/jat001/scoop-ox/tree/master/bucket/cafeact.json) | [Freeware]()
 [cheat-engine-zh-cn](https://cheatengine.org) | Tool for modifying/debugging single player games and applications. | [7.4](https://github.com/jat001/scoop-ox/tree/master/bucket/cheat-engine-zh-cn.json) | [Freeware](https://github.com/cheat-engine/cheat-engine/issues/60#issuecomment-467317576)
-[heybox-acc](https://acc.xiaoheihe.cn) | 小黑盒加速器，告别高延迟，畅玩海外游戏。 | [1.1.22.2](https://github.com/jat001/scoop-ox/tree/master/bucket/heybox-acc.json) | [Freeware]()
+[heybox-acc](https://acc.xiaoheihe.cn) | 小黑盒加速器，告别高延迟，畅玩海外游戏。 | [1.1.23.1](https://github.com/jat001/scoop-ox/tree/master/bucket/heybox-acc.json) | [Freeware]()
 [heybox-workshop](https://workshop.xiaoheihe.cn) | 黑盒工坊是一款专为魔兽玩家定制、永久免费的插件管理软件。 | [1.9.10.1](https://github.com/jat001/scoop-ox/tree/master/bucket/heybox-workshop.json) | [Freeware]()
 [oraclejdk](https://www.oracle.com/java/) | Oracle Java SE Development Kit | [19.0.2](https://github.com/jat001/scoop-ox/tree/master/bucket/oraclejdk.json) | [Freeware](https://www.oracle.com/downloads/licenses/no-fee-license.html)
 [shadowsocksr-windows](https://github.com/HMBSbige/ShadowsocksR-Windows) | An Internet censorship circumventing tunnel tool, forked by Breakwa11 from shadowsocks, maintained now by HMBSbige. | [6.1.0](https://github.com/jat001/scoop-ox/tree/master/bucket/shadowsocksr-windows.json) | [GPL-3.0-or-later](https://github.com/HMBSbige/ShadowsocksR-Windows/blob/master/LICENSE)

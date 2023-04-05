@@ -14,10 +14,10 @@ scoop install ox/<app>
 Name | Description | Version | License
 --- | --- | --- | ---
 [advanced-rest-client](https://install.advancedrestclient.com) | A developer tool to test a HTTP request. | [17.0.9](https://github.com/jat001/scoop-ox/tree/master/bucket/advanced-rest-client.json) | [Apache License 2.0](https://github.com/advanced-rest-client/arc-electron/blob/master/LICENSE.md)
-[ajour](https://getajour.com) | A World of Warcraft addon manager written in Rust. | [1.3.2](https://github.com/jat001/scoop-ox/tree/master/bucket/ajour.json) | [MIT](https://github.com/ajour/ajour/blob/master/LICENSE)
-[ajour-beta](https://getajour.com) | A World of Warcraft addon manager written in Rust. (Beta version) | [1.3.2](https://github.com/jat001/scoop-ox/tree/master/bucket/ajour-beta.json) | [MIT](https://github.com/ajour/ajour/blob/master/LICENSE)
+[ajour](https://github.com/ajour/ajour) | A World of Warcraft addon manager written in Rust. | [1.3.2](https://github.com/jat001/scoop-ox/tree/master/bucket/ajour.json) | [MIT](https://github.com/ajour/ajour/blob/master/LICENSE)
+[ajour-beta](https://github.com/ajour/ajour) | A World of Warcraft addon manager written in Rust. (Beta version) | [1.3.2](https://github.com/jat001/scoop-ox/tree/master/bucket/ajour-beta.json) | [MIT](https://github.com/ajour/ajour/blob/master/LICENSE)
 [bcut](https://bcut.bilibili.cn) | 必剪，B站官方出品。 | [3.3.5](https://github.com/jat001/scoop-ox/tree/master/bucket/bcut.json) | [Freeware]()
-[cafeact](https://ffcafe.org/act/) | ACT 国服整合，自带超方便插件中心的 Advanced Combat Tracker 整合版。 | [3.9.8.1](https://github.com/jat001/scoop-ox/tree/master/bucket/cafeact.json) | [Freeware]()
+[cafeact](https://www.ffcafe.cn/act/) | ACT 国服整合，自带超方便插件中心的 Advanced Combat Tracker 整合版。 | [3.9.9.0](https://github.com/jat001/scoop-ox/tree/master/bucket/cafeact.json) | [Freeware]()
 [cheat-engine-zh-cn](https://cheatengine.org) | Tool for modifying/debugging single player games and applications. | [7.4](https://github.com/jat001/scoop-ox/tree/master/bucket/cheat-engine-zh-cn.json) | [Freeware](https://github.com/cheat-engine/cheat-engine/issues/60#issuecomment-467317576)
 [curseforge](https://download.curseforge.com) | Download and manage your addons, CC and mods. | [0.222.2-9650](https://github.com/jat001/scoop-ox/tree/master/bucket/curseforge.json) | [Freeware](https://www.overwolf.com/legal/terms)
 [heybox-acc](https://acc.xiaoheihe.cn) | 小黑盒加速器，告别高延迟，畅玩海外游戏。 | [1.1.23.1](https://github.com/jat001/scoop-ox/tree/master/bucket/heybox-acc.json) | [Freeware]()

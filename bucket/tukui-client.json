@@ -7,7 +7,7 @@
     },
     "url": "https://www.tukui.org/client/windows/tukui-windows-3410.zip",
     "hash": "47b4d2bfc12c1dd3e2b6d926c3b16f49fb926841c8cf11f94e8823f29d09a820",
-    "pre_install": "Expand-MsiArchive (Join-Path $dir 'Tukui Client.msi') -Removal",
+    "pre_install": "Expand-MsiArchive (Join-Path $dir 'Tukui Setup.msi') -Removal",
     "shortcuts": [
         [
             "Tukui Client.exe",

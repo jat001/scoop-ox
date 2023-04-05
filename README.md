@@ -4,8 +4,6 @@
 
 ## Usage
 
-:star: Recommend to use [Shovel](https://github.com/Ash258/Scoop-Core/tree/NEW), a forked version of [Scoop](https://scoop.sh) which is under active development. :star:
-
 ```powershell
 scoop bucket add ox https://github.com/jat001/scoop-ox.git
 scoop install ox/<app>
@@ -21,15 +19,21 @@ Name | Description | Version | License
 [bcut](https://bcut.bilibili.cn) | 必剪，B站官方出品。 | [3.3.5](https://github.com/jat001/scoop-ox/tree/master/bucket/bcut.json) | [Freeware]()
 [cafeact](https://ffcafe.org/act/) | ACT 国服整合，自带超方便插件中心的 Advanced Combat Tracker 整合版。 | [3.9.8.1](https://github.com/jat001/scoop-ox/tree/master/bucket/cafeact.json) | [Freeware]()
 [cheat-engine-zh-cn](https://cheatengine.org) | Tool for modifying/debugging single player games and applications. | [7.4](https://github.com/jat001/scoop-ox/tree/master/bucket/cheat-engine-zh-cn.json) | [Freeware](https://github.com/cheat-engine/cheat-engine/issues/60#issuecomment-467317576)
+[curseforge](https://download.curseforge.com) | Download and manage your addons, CC and mods. | [0.222.2-9650](https://github.com/jat001/scoop-ox/tree/master/bucket/curseforge.json) | [Freeware](https://www.overwolf.com/legal/terms)
 [heybox-acc](https://acc.xiaoheihe.cn) | 小黑盒加速器，告别高延迟，畅玩海外游戏。 | [1.1.23.1](https://github.com/jat001/scoop-ox/tree/master/bucket/heybox-acc.json) | [Freeware]()
 [heybox-workshop](https://workshop.xiaoheihe.cn) | 黑盒工坊是一款专为魔兽玩家定制、永久免费的插件管理软件。 | [1.9.13.1](https://github.com/jat001/scoop-ox/tree/master/bucket/heybox-workshop.json) | [Freeware]()
+[minion](https://www.minion.gg) | Provides premeir AddOn Management for games such as World of Warcraft and The Elder Scrolls Online. | [3.0.5](https://github.com/jat001/scoop-ox/tree/master/bucket/minion.json) | [Freeware](https://www.minion.gg/?license)
 [oraclejdk](https://www.oracle.com/java/) | Oracle Java SE Development Kit | [20](https://github.com/jat001/scoop-ox/tree/master/bucket/oraclejdk.json) | [Freeware](https://www.oracle.com/downloads/licenses/no-fee-license.html)
 [shadowsocksr-windows](https://github.com/HMBSbige/ShadowsocksR-Windows) | An Internet censorship circumventing tunnel tool, forked by Breakwa11 from shadowsocks, maintained now by HMBSbige. | [6.1.0](https://github.com/jat001/scoop-ox/tree/master/bucket/shadowsocksr-windows.json) | [GPL-3.0-or-later](https://github.com/HMBSbige/ShadowsocksR-Windows/blob/master/LICENSE)
 [sublime-merge-dev](https://www.sublimemerge.com/dev) | A Git client with snappy UI, three-way merge tool, side-by-side diffs, syntax highlighting, and more. (Dev version) | [2085](https://github.com/jat001/scoop-ox/tree/master/bucket/sublime-merge-dev.json) | [Shareware](https://www.sublimehq.com/eula)
 [sublime-text-dev](https://www.sublimetext.com) | A sophisticated text editor for code, markup and prose. (ST4 dev veriosn) | [4148](https://github.com/jat001/scoop-ox/tree/master/bucket/sublime-text-dev.json) | [Shareware](https://www.sublimetext.com/eula)
 [tukui-client](https://www.tukui.org/download.php?client=win) | An addon manager that allows you to browse, install, and update your addons. | [3410](https://github.com/jat001/scoop-ox/tree/master/bucket/tukui-client.json) | [Freeware]()
 [turbovnc](https://turbovnc.org) | A derivative of VNC that is tuned to provide peak performance for 3D and video workloads. | [2.2.90](https://github.com/jat001/scoop-ox/tree/master/bucket/turbovnc.json) | [GPL-2.0-or-later](https://github.com/TurboVNC/turbovnc/blob/master/LICENSE.txt)
+[wago-app](https://addons.wago.io/app) | Search, download and update your WeakAuras and addons directly on the platform. | [1.3.2](https://github.com/jat001/scoop-ox/tree/master/bucket/wago-app.json) | [Freeware]()
+[weakauras-companion](https://weakauras.wtf) | Provide the missing link between Wago and the WeakAuras World of Warcraft addon. | [4.1.5](https://github.com/jat001/scoop-ox/tree/master/bucket/weakauras-companion.json) | [GPL-2.0-or-later](https://github.com/WeakAuras/WeakAuras-Companion/blob/main/LICENSE)
 [wechat-work](https://work.weixin.qq.com) | WeCom is a professional office management tool created by Tencent WeChat team for companies. | [4.1.2.6011](https://github.com/jat001/scoop-ox/tree/master/bucket/wechat-work.json) | [Freeware](https://work.weixin.qq.com/nl/eula)
 [wowup](https://wowup.io) | World of Warcraft addon updater. | [2.9.3](https://github.com/jat001/scoop-ox/tree/master/bucket/wowup.json) | [GPL-3.0-or-later](https://github.com/WowUp/WowUp/blob/master/LICENSE)
 [wowup-beta](https://wowup.io) | World of Warcraft addon updater. (Beta version) | [2.9.3](https://github.com/jat001/scoop-ox/tree/master/bucket/wowup-beta.json) | [GPL-3.0-or-later](https://github.com/WowUp/WowUp/blob/master/LICENSE)
+[wowup-cf](https://wowup.io) | World of Warcraft addon updater with CurseForge support. | [2.9.2](https://github.com/jat001/scoop-ox/tree/master/bucket/wowup-cf.json) | [GPL-3.0-or-later](https://github.com/WowUp/WowUp.CF/blob/main/LICENSE)
+[wowup-cf-beta](https://wowup.io) | World of Warcraft addon updater with CurseForge support. (Beta version) | [2.9.4-beta.2](https://github.com/jat001/scoop-ox/tree/master/bucket/wowup-cf-beta.json) | [GPL-3.0-or-later](https://github.com/WowUp/WowUp.CF/blob/main/LICENSE)
 <!-- Generated by bin\updateReadme.ps1, do not edid it manually. -->

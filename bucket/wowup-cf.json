@@ -1,0 +1,30 @@
+{
+    "version": "2.9.2",
+    "description": "World of Warcraft addon updater with CurseForge support.",
+    "homepage": "https://wowup.io",
+    "license": {
+        "identifier": "GPL-3.0-or-later",
+        "url": "https://github.com/WowUp/WowUp.CF/blob/main/LICENSE"
+    },
+    "url": "https://github.com/WowUp/WowUp.CF/releases/download/v2.9.2/WowUp-CF-Setup-2.9.2.exe#/dl.7z",
+    "hash": "9328a555805281193ce7c3fef53748c2fb5dbada26923b0fc1c79816683ca064",
+    "extract_dir": "$PLUGINSDIR",
+    "installer": {
+        "script": [
+            "Remove-Item \"$dir\\*\" -Exclude 'app-64.7z'",
+            "Expand-7zipArchive \"$dir\\app-64.7z\" \"$dir\" -Removal"
+        ]
+    },
+    "shortcuts": [
+        [
+            "WowUp.exe",
+            "WowUp"
+        ]
+    ],
+    "checkver": {
+        "github": "https://github.com/WowUp/WowUp.CF"
+    },
+    "autoupdate": {
+        "url": "https://github.com/WowUp/WowUp.CF/releases/download/v$version/WowUp-CF-Setup-$version.exe#/dl.7z"
+    }
+}

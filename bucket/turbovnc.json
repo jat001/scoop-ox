@@ -23,12 +23,6 @@
             "TurboVNC Viewer",
             "",
             "vncviewer.ico"
-        ],
-        [
-            "vncviewerw.bat",
-            "TurboVNC Viewer (Listen Mode)",
-            "-listen",
-            "vncviewer.ico"
         ]
     ],
     "checkver": {

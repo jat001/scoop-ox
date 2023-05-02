@@ -1,6 +1,6 @@
 {
     "version": "4148",
-    "description": "A sophisticated text editor for code, markup and prose. (ST4 dev veriosn)",
+    "description": "A sophisticated text editor for code, markup and prose. (Dev veriosn)",
     "homepage": "https://www.sublimetext.com",
     "license": {
         "identifier": "Shareware",
@@ -38,7 +38,7 @@
     "shortcuts": [
         [
             "sublime_text.exe",
-            "Sublime Text 4"
+            "Sublime Text Dev"
         ]
     ],
     "persist": "Data",

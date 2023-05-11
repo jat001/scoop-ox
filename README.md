@@ -19,7 +19,7 @@ Name | Description | Version | License
 [bcut](https://bcut.bilibili.cn) | 必剪，B站官方出品。 | [3.3.5](https://github.com/jat001/scoop-ox/tree/master/bucket/bcut.json) | [Freeware]()
 [cafeact](https://www.ffcafe.cn/act/) | ACT 国服整合，自带超方便插件中心的 Advanced Combat Tracker 整合版。 | [3.9.9.0](https://github.com/jat001/scoop-ox/tree/master/bucket/cafeact.json) | [Freeware]()
 [cheat-engine-zh-cn](https://cheatengine.org) | Tool for modifying/debugging single player games and applications. | [7.4](https://github.com/jat001/scoop-ox/tree/master/bucket/cheat-engine-zh-cn.json) | [Freeware](https://github.com/cheat-engine/cheat-engine/issues/60#issuecomment-467317576)
-[curseforge](https://download.curseforge.com) | Download and manage your addons, CC and mods. | [0.223.1-9893](https://github.com/jat001/scoop-ox/tree/master/bucket/curseforge.json) | [Freeware](https://www.overwolf.com/legal/terms)
+[curseforge](https://download.curseforge.com) | Download and manage your addons, CC and mods. | [0.224.1-10030](https://github.com/jat001/scoop-ox/tree/master/bucket/curseforge.json) | [Freeware](https://www.overwolf.com/legal/terms)
 [heybox-acc](https://acc.xiaoheihe.cn) | 小黑盒加速器，全球专线加速，游戏网络专家。 | [1.1.28.0](https://github.com/jat001/scoop-ox/tree/master/bucket/heybox-acc.json) | [Freeware]()
 [heybox-chat](https://chat.xiaoheihe.cn) | 黑盒语音，玩家开黑大本营。 | [1.7.7](https://github.com/jat001/scoop-ox/tree/master/bucket/heybox-chat.json) | [Freeware]()
 [heybox-workshop](https://workshop.xiaoheihe.cn) | 黑盒工坊，轻松管理你的魔兽插件，畅游艾泽拉斯。 | [1.9.16.1](https://github.com/jat001/scoop-ox/tree/master/bucket/heybox-workshop.json) | [Freeware]()

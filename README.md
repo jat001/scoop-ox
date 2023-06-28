@@ -22,7 +22,7 @@ Name | Description | Version | License
 [cursebreaker](https://github.com/AcidWeb/CurseBreaker) | TUI/CLI addon updater for World of Warcraft. | [4.5.1](https://github.com/jat001/scoop-ox/tree/master/bucket/cursebreaker.json) | [GPL-3.0-or-later](https://github.com/AcidWeb/CurseBreaker/blob/master/LICENSE.txt)
 [curseforge](https://download.curseforge.com) | Download and manage your addons, CC and mods. | [0.227.1-11043](https://github.com/jat001/scoop-ox/tree/master/bucket/curseforge.json) | [Freeware](https://www.overwolf.com/legal/terms)
 [heybox-acc](https://acc.xiaoheihe.cn) | 小黑盒加速器，全球专线加速，游戏网络专家。 | [1.1.30.0](https://github.com/jat001/scoop-ox/tree/master/bucket/heybox-acc.json) | [Freeware]()
-[heybox-chat](https://chat.xiaoheihe.cn) | 黑盒语音，玩家开黑大本营。 | [1.9.5](https://github.com/jat001/scoop-ox/tree/master/bucket/heybox-chat.json) | [Freeware]()
+[heybox-chat](https://chat.xiaoheihe.cn) | 黑盒语音，玩家开黑大本营。 | [1.9.7](https://github.com/jat001/scoop-ox/tree/master/bucket/heybox-chat.json) | [Freeware]()
 [heybox-workshop](https://workshop.xiaoheihe.cn) | 黑盒工坊，轻松管理你的魔兽插件，畅游艾泽拉斯。 | [1.9.16.1](https://github.com/jat001/scoop-ox/tree/master/bucket/heybox-workshop.json) | [Freeware]()
 [minion](https://www.minion.gg) | Provides premeir AddOn Management for games such as World of Warcraft and The Elder Scrolls Online. | [3.0.5](https://github.com/jat001/scoop-ox/tree/master/bucket/minion.json) | [Freeware](https://www.minion.gg/?license)
 [oraclejdk](https://www.oracle.com/java/) | Oracle Java SE Development Kit | [20](https://github.com/jat001/scoop-ox/tree/master/bucket/oraclejdk.json) | [Freeware](https://www.oracle.com/downloads/licenses/no-fee-license.html)

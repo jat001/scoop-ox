@@ -20,7 +20,7 @@ Name | Description | Version | License
 [cafeact](https://www.ffcafe.cn/act/) | ACT 国服整合，自带超方便插件中心的 Advanced Combat Tracker 整合版。 | [3.9.10.3](https://github.com/jat001/scoop-ox/tree/master/bucket/cafeact.json) | [Freeware]()
 [cheat-engine-zh-cn](https://cheatengine.org) | Tool for modifying/debugging single player games and applications. | [7.4](https://github.com/jat001/scoop-ox/tree/master/bucket/cheat-engine-zh-cn.json) | [Freeware](https://github.com/cheat-engine/cheat-engine/issues/60#issuecomment-467317576)
 [cursebreaker](https://github.com/AcidWeb/CurseBreaker) | TUI/CLI addon updater for World of Warcraft. | [4.5.1](https://github.com/jat001/scoop-ox/tree/master/bucket/cursebreaker.json) | [GPL-3.0-or-later](https://github.com/AcidWeb/CurseBreaker/blob/master/LICENSE.txt)
-[curseforge](https://download.curseforge.com) | Download and manage your addons, CC and mods. | [0.230.4-12026](https://github.com/jat001/scoop-ox/tree/master/bucket/curseforge.json) | [Freeware](https://www.overwolf.com/legal/terms)
+[curseforge](https://download.curseforge.com) | Download and manage your addons, CC and mods. | [0.230.4-12047](https://github.com/jat001/scoop-ox/tree/master/bucket/curseforge.json) | [Freeware](https://www.overwolf.com/legal/terms)
 [heybox-acc](https://acc.xiaoheihe.cn) | 小黑盒加速器，全球专线加速，游戏网络专家。 | [1.1.36.0](https://github.com/jat001/scoop-ox/tree/master/bucket/heybox-acc.json) | [Freeware]()
 [heybox-chat](https://chat.xiaoheihe.cn) | 黑盒语音，玩家开黑大本营。 | [1.11.3](https://github.com/jat001/scoop-ox/tree/master/bucket/heybox-chat.json) | [Freeware]()
 [heybox-workshop](https://workshop.xiaoheihe.cn) | 黑盒工坊，轻松管理你的魔兽插件，畅游艾泽拉斯。 | [1.9.18.0](https://github.com/jat001/scoop-ox/tree/master/bucket/heybox-workshop.json) | [Freeware]()

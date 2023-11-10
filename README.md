@@ -1,4 +1,4 @@
-# :ox: Ox [![Build status](https://ci.appveyor.com/api/projects/status/ylp3aj8mdtmpif3c?svg=true)](https://ci.appveyor.com/project/Jat/scoop-ox) [![Excavator status](https://github.com/jat001/scoop-ox/actions/workflows/schedule.yml/badge.svg)](https://github.com/jat001/scoop-ox/actions/workflows/schedule.yml)
+# :ox: Ox [![Tests](https://github.com/jat001/scoop-ox/actions/workflows/ci.yml/badge.svg)](https://github.com/jat001/scoop-ox/actions/workflows/ci.yml) [![Excavator](https://github.com/jat001/scoop-ox/actions/workflows/excavator.yml/badge.svg)](https://github.com/jat001/scoop-ox/actions/workflows/excavator.yml)
 
 > The [Ox](https://en.wikipedia.org/wiki/Ox_(zodiac)) (牛) is the second of the 12-year periodic sequence (cycle) of animals which appear in the Chinese zodiac related to the Chinese calendar, and also appears in related calendar systems.
 
@@ -16,14 +16,16 @@ Name | Description | Version | License
 [advanced-rest-client](https://install.advancedrestclient.com) | A developer tool to test a HTTP request. | [17.0.9](https://github.com/jat001/scoop-ox/tree/master/bucket/advanced-rest-client.json) | [Apache License 2.0](https://github.com/advanced-rest-client/arc-electron/blob/master/LICENSE.md)
 [ajour](https://github.com/ajour/ajour) | A World of Warcraft addon manager written in Rust. | [1.3.2](https://github.com/jat001/scoop-ox/tree/master/bucket/ajour.json) | [MIT](https://github.com/ajour/ajour/blob/master/LICENSE)
 [ajour-beta](https://github.com/ajour/ajour) | A World of Warcraft addon manager written in Rust. (Beta version) | [1.3.2](https://github.com/jat001/scoop-ox/tree/master/bucket/ajour-beta.json) | [MIT](https://github.com/ajour/ajour/blob/master/LICENSE)
-[bcut](https://bcut.bilibili.cn) | 必剪，B站官方出品。 | [3.3.8](https://github.com/jat001/scoop-ox/tree/master/bucket/bcut.json) | [Freeware]()
+[bcut](https://bcut.bilibili.cn) | 必剪，B站官方出品。 | [3.3.9](https://github.com/jat001/scoop-ox/tree/master/bucket/bcut.json) | [Freeware]()
 [cafeact](https://www.ffcafe.cn/act/) | ACT 国服整合，自带超方便插件中心的 Advanced Combat Tracker 整合版。 | [3.9.10.5](https://github.com/jat001/scoop-ox/tree/master/bucket/cafeact.json) | [Freeware]()
 [cheat-engine-zh-cn](https://cheatengine.org) | Tool for modifying/debugging single player games and applications. | [7.4](https://github.com/jat001/scoop-ox/tree/master/bucket/cheat-engine-zh-cn.json) | [Freeware](https://github.com/cheat-engine/cheat-engine/issues/60#issuecomment-467317576)
+[clash-for-windows](https://web.archive.org/web/20231030023332/https://github.com/Fndroid/clash_for_windows_pkg) | A Windows GUI based on Clash. | [0.20.39](https://github.com/jat001/scoop-ox/tree/master/bucket/clash-for-windows.json) | []()
 [cursebreaker](https://github.com/AcidWeb/CurseBreaker) | TUI/CLI addon updater for World of Warcraft. | [4.5.1](https://github.com/jat001/scoop-ox/tree/master/bucket/cursebreaker.json) | [GPL-3.0-or-later](https://github.com/AcidWeb/CurseBreaker/blob/master/LICENSE.txt)
 [curseforge](https://download.curseforge.com) | Download and manage your addons, CC and mods. | [0.238.1-14498](https://github.com/jat001/scoop-ox/tree/master/bucket/curseforge.json) | [Freeware](https://www.overwolf.com/legal/terms)
 [heybox-acc](https://acc.xiaoheihe.cn) | 小黑盒加速器，全球专线加速，游戏网络专家。 | [1.1.42.0](https://github.com/jat001/scoop-ox/tree/master/bucket/heybox-acc.json) | [Freeware]()
 [heybox-chat](https://chat.xiaoheihe.cn) | 黑盒语音，玩家开黑大本营。 | [1.14.9](https://github.com/jat001/scoop-ox/tree/master/bucket/heybox-chat.json) | [Freeware]()
 [heybox-workshop](https://workshop.xiaoheihe.cn) | 黑盒工坊，轻松管理你的魔兽插件，畅游艾泽拉斯。 | [1.9.21.1](https://github.com/jat001/scoop-ox/tree/master/bucket/heybox-workshop.json) | [Freeware]()
+[kook](https://www.kookapp.cn) | A useful voice communication tool. | [0.76.3](https://github.com/jat001/scoop-ox/tree/master/bucket/kook.json) | [Proprietary](https://www.kookapp.cn/protocol.html)
 [minion](https://www.minion.gg) | Provides premeir AddOn Management for games such as World of Warcraft and The Elder Scrolls Online. | [3.0.5](https://github.com/jat001/scoop-ox/tree/master/bucket/minion.json) | [Freeware](https://www.minion.gg/?license)
 [oraclejdk](https://www.oracle.com/java/) | Oracle Java SE Development Kit | [21.0.1](https://github.com/jat001/scoop-ox/tree/master/bucket/oraclejdk.json) | [Freeware](https://www.oracle.com/downloads/licenses/no-fee-license.html)
 [raiderio-client](https://raider.io/addon) | World of Warcraft addon updater. | [3.1.1](https://github.com/jat001/scoop-ox/tree/master/bucket/raiderio-client.json) | [Freeware](https://raider.io/terms-of-use)

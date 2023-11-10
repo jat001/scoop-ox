@@ -3,7 +3,7 @@ param(
     [Switch] $Push
 )
 
-. "$PSScriptRoot\NaturalSort.ps1"
+Import-Module "$PSScriptRoot\..\scripts\NaturalSort.psm1"
 
 $dir = Resolve-Path "$PSScriptRoot\.."
 $url = 'https://github.com/jat001/scoop-ox/tree/master/bucket'
@@ -14,7 +14,7 @@ Name | Description | Version | License
 --- | --- | --- | ---
 "
 
-Sort-Naturally (Get-ChildItem "$dir\bucket") | ForEach-Object -Process {
+SortNaturally (Get-ChildItem "$dir\bucket") | ForEach-Object -Process {
     $name = ($_.Name -Split '.', -2, 'SimpleMatch')[0]
     $data = Get-Content $_.FullName | ConvertFrom-Json
     $text += "[$name]($($data.homepage)) | $($data.description) | [$($data.version)]($url/$($_.Name)) | [$($data.license.identifier)]($($data.license.url))`r`n"
@@ -32,3 +32,5 @@ if ($Push) {
     git -C "$dir" commit -m 'Update apps list on readme'
     git -C "$dir" push origin master
 }
+
+Remove-Module -Name NaturalSort

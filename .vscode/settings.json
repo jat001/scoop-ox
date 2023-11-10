@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "**/bucket/*.json": "jsonc"
+    }
+}
+

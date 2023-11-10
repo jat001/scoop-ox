@@ -1,25 +1,23 @@
 {
-    "version": "3.3.8",
+    "autoupdate": {
+        "url": "$matchUrl"
+    },
+    "checkver": {
+        "script": [
+            "$script:ver = json_path $page '$.data.version'",
+            "$script:matchesHashtable = @{'url' = ((json_path $page '$.data.package_download_url') -split '\\?')[0]}",
+            "$script:regexp = $null"
+        ],
+        "url": "https://bcut.bilibili.cn/x/bcut/pc/upgrade?version=0"
+    },
     "description": "必剪，B站官方出品。",
+    "hash": "0a9446505692cdbcbfa0fda0c1ee01b866a00a74036d79b89d4e51cbf03e9d6d",
     "homepage": "https://bcut.bilibili.cn",
+    "innosetup": true,
     "license": {
         "identifier": "Freeware"
     },
-    "url": "https://boss.hdslb.com/material/static/96ba264a12fdec6f1f92f2710bd59fd2/Bcut-Win-3.3.8.exe",
-    "hash": "f4c1ac9aba1a6aa7810bc176616103d7040de754b7352d8f5b3f21fa3dce3270",
-    "innosetup": true,
-    "shortcuts": [
-        [
-            "BCUT.exe",
-            "必剪"
-        ]
-    ],
-    "checkver": {
-        "url": "https://bcut.bilibili.cn/x/bcut/pc/upgrade?version=0",
-        "jsonpath": "$.data.package_download_url",
-        "regex": "\\/(?<nonce>[a-z0-9]+)\\/Bcut-Win-(?<version>[\\d.]+)\\.exe"
-    },
-    "autoupdate": {
-        "url": "https://boss.hdslb.com/material/static/$matchNonce/Bcut-Win-$version.exe"
-    }
+    "shortcuts": [["BCUT.exe", "必剪"]],
+    "url": "http://boss.hdslb.com/material/static/f9b34aeb64c7dbfa2ccc5d285c078ce6/Bcut-Win.exe",
+    "version": "3.3.9"
 }

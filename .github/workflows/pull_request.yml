@@ -1,18 +1,14 @@
 on:
   pull_request:
     types: [ opened ]
-name: Pull Request
+name: Pull Requests
 jobs:
   pullRequestHandler:
-    name: Pull Request Validator
+    name: PullRequestHandler
     runs-on: windows-latest
     steps:
-    - uses: actions/checkout@v2
-    - name: Pull Request Validator
-      uses: jat001/Scoop-GithubActions@main-win
+    - uses: actions/checkout@main
+    - name: PullRequestHandler
+      uses: ScoopInstaller/GithubActions@main
       env:
-        GITH_USER: Jat
-        GITH_EMAIL: jat@sinosky.org
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        SHOVEL: '1'
-        SCOOP_BRANCH: 'NEW'

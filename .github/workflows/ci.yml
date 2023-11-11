@@ -25,6 +25,7 @@ jobs:
         run: |
           $env:SCOOP_HOME="$(Convert-Path '.\scoop_core')"
           .\scoop_core\test\bin\init.ps1
+          Copy-Item .\my_bucket\schema.json .\scoop_core\schema.json
           .\my_bucket\bin\test.ps1
   test_pwsh:
     name: PowerShell
@@ -45,4 +46,5 @@ jobs:
         run: |
           $env:SCOOP_HOME="$(Convert-Path '.\scoop_core')"
           .\scoop_core\test\bin\init.ps1
+          Copy-Item .\my_bucket\schema.json .\scoop_core\schema.json
           .\my_bucket\bin\test.ps1

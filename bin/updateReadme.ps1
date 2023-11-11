@@ -1,3 +1,5 @@
+#Requires -Version 7.0
+
 param(
     [Switch] $Append,
     [Switch] $Push
@@ -24,7 +26,11 @@ $text += "$search"
 $search = [Regex]::Escape($search)
 
 $orig = Get-Content "$dir\README.md" -Raw
-$text = ($Append) ? "$orig$text`r`n" : $orig -Replace "(?s)$search.*?$search", $text
+if ($Append) {
+    $text = "$orig$text`r`n"
+} else {
+    $text = $orig -Replace "(?s)$search.*?$search", $text
+}
 $text | Out-File "$dir\README.md" -NoNewline
 
 if ($Push) {

@@ -1,5 +1,6 @@
 {
-  "files.associations": {
-    "**/bucket/*.json": "jsonc"
-  }
+    "files.associations": {
+        "*.json": "jsonc"
+    },
+    "prettier.tabWidth": 4
 }

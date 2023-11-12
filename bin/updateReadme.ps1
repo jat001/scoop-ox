@@ -1,11 +1,8 @@
 #Requires -Version 7.0
 
 param(
-    [Switch] $Append,
     [Switch] $Push
 )
-
-Import-Module "$PSScriptRoot\..\scripts\NaturalSort.psm1"
 
 $dir = Resolve-Path "$PSScriptRoot\.."
 $url = 'https://github.com/jat001/scoop-ox/tree/master/bucket'
@@ -16,27 +13,31 @@ Name | Description | Version | License
 --- | --- | --- | ---
 "
 
+Import-Module "$PSScriptRoot\..\scripts\NaturalSort.psm1"
+
 SortNaturally (Get-ChildItem "$dir\bucket") | ForEach-Object -Process {
     $name = ($_.Name -Split '.', -2, 'SimpleMatch')[0]
     $data = Get-Content $_.FullName | ConvertFrom-Json
     $text += "[$name]($($data.homepage)) | $($data.description) | [$($data.version)]($url/$($_.Name)) | [$($data.license.identifier)]($($data.license.url))`r`n"
 }
 
+Remove-Module -Name NaturalSort
+
 $text += "$search"
-$search = [Regex]::Escape($search)
 
 $orig = Get-Content "$dir\README.md" -Raw
-if ($Append) {
-    $text = "$orig$text`r`n"
-} else {
-    $text = $orig -Replace "(?s)$search.*?$search", $text
-}
+
+$search = [Regex]::Escape($search)
+$text = $orig -Replace "(?s)$search.*?$search", $text
+
 $text | Out-File "$dir\README.md" -NoNewline
 
-if ($Push) {
-    git -C "$dir" add "$dir\README.md"
-    git -C "$dir" commit -m 'Update apps list on readme'
-    git -C "$dir" push origin master
-}
+if (-not $Push) { exit }
 
-Remove-Module -Name NaturalSort
+$git = {
+    git -C "$dir" @args
+    if (-not $?) { exit 1 }
+}
+&$git add README.md
+&$git commit -m 'Update apps list on readme'
+&$git push origin master

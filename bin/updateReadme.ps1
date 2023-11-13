@@ -33,6 +33,8 @@ $text = $orig -Replace "(?s)$search.*?$search", $text
 $text | Out-File "$dir\README.md" -NoNewline
 
 if (-not $Push) { exit }
+git -C "$dir" diff --quiet README.md
+if ($?) { exit }
 
 $git = {
     git -C "$dir" @args

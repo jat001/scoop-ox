@@ -1,7 +1,7 @@
 {
-    // "autoupdate": {
-    //   "url": "https://github.com/cheat-engine/cheat-engine/releases/download/$version/CheatEngine${cleanVersion}Lite.exe#/CheatEngine.exe"
-    // },
+    "autoupdate": {
+        "url": "https://github.com/cheat-engine/cheat-engine/releases/download/$version/CheatEngine${cleanVersion}Lite.exe#/CheatEngine.exe"
+    },
     // "checkver": {
     //   "github": "https://github.com/cheat-engine/cheat-engine"
     // },

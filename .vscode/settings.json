@@ -2,5 +2,6 @@
     "files.associations": {
         "*.json": "jsonc"
     },
+    "files.eol": "\r\n",
     "prettier.tabWidth": 4
 }

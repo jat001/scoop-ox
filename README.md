@@ -25,7 +25,7 @@ Name | Description | Version | License
 [clash-for-windows](https://web.archive.org/web/20231030023332/https://github.com/Fndroid/clash_for_windows_pkg) | A Windows GUI based on Clash. | [0.20.39](https://github.com/jat001/scoop-ox/tree/master/bucket/clash-for-windows.json) | [Freeware]()
 [cursebreaker](https://github.com/AcidWeb/CurseBreaker) | TUI/CLI addon updater for World of Warcraft. | [4.5.1](https://github.com/jat001/scoop-ox/tree/master/bucket/cursebreaker.json) | [GPL-3.0-or-later](https://github.com/AcidWeb/CurseBreaker/blob/master/LICENSE.txt)
 [curseforge](https://download.curseforge.com) | Download and manage your addons, CC and mods. | [0.238.1-14498](https://github.com/jat001/scoop-ox/tree/master/bucket/curseforge.json) | [Freeware](https://www.overwolf.com/legal/terms)
-[heybox-acc](https://acc.xiaoheihe.cn) | 小黑盒加速器，全球专线加速，游戏网络专家。 | [1.1.42.0](https://github.com/jat001/scoop-ox/tree/master/bucket/heybox-acc.json) | [Freeware]()
+[heybox-acc](https://acc.xiaoheihe.cn) | 小黑盒加速器，全球专线加速，游戏网络专家。 | [1.1.43.0](https://github.com/jat001/scoop-ox/tree/master/bucket/heybox-acc.json) | [Freeware]()
 [heybox-chat](https://chat.xiaoheihe.cn) | 黑盒语音，玩家开黑大本营。 | [1.14.9](https://github.com/jat001/scoop-ox/tree/master/bucket/heybox-chat.json) | [Freeware]()
 [heybox-workshop](https://workshop.xiaoheihe.cn) | 黑盒工坊，轻松管理你的魔兽插件，畅游艾泽拉斯。 | [1.9.21.1](https://github.com/jat001/scoop-ox/tree/master/bucket/heybox-workshop.json) | [Freeware]()
 [kook](https://www.kookapp.cn) | A useful voice communication tool. | [0.76.3](https://github.com/jat001/scoop-ox/tree/master/bucket/kook.json) | [Proprietary](https://www.kookapp.cn/protocol.html)

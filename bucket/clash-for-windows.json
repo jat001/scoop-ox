@@ -52,7 +52,7 @@
     "homepage": "https://web.archive.org/web/20231030023332/https://github.com/Fndroid/clash_for_windows_pkg",
     "installer": {
         "script": [
-            "if (!(Test-Path \"$persist_dir\\data\")) {",
+            "if (-not (Test-Path \"$persist_dir\\data\")) {",
             "    New-Item \"$persist_dir\\data\" -Type Directory -Force | Out-Null",
             "    if (Test-Path \"$env:USERPROFILE\\.config\\clash\") {",
             "        Copy-Item -Path \"$env:USERPROFILE\\.config\\clash\\*\" -Destination \"$persist_dir\\data\" -Recurse -Container",

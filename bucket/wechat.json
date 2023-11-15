@@ -1,0 +1,25 @@
+{
+    "autoupdate": {
+        "url": "https://webcdn.m.qq.com/spcmgr/download/WeChatSetup_$version.exe#/dl.7z"
+    },
+    "checkver": {
+        "regex": "<li>版本：([\\d.]+)</li>",
+        "url": "https://s.pc.qq.com/softdetail_v3/114/88/detail_11488.html"
+    },
+    "description": "Weixin (微信) is a free messaging and calling app.",
+    "hash": "749753d77418666f4f76a107fbf38cfbc8f7df9d19ff0e5218b03a02a6122583",
+    "homepage": "https://weixin.qq.com",
+    "installer": {
+        "script": [
+            "Remove-Item \"$dir\\`$*\" -Recurse -Force -ErrorAction SilentlyContinue",
+            "Remove-Item \"$dir\\Uninstall*\" -Force -ErrorAction SilentlyContinue"
+        ]
+    },
+    "license": {
+        "identifier": "Freeware",
+        "url": "https://weixin.qq.com/cgi-bin/readtemplate?t=weixin_agreement"
+    },
+    "shortcuts": [["wechat.exe", "WeChat"]],
+    "url": "https://webcdn.m.qq.com/spcmgr/download/WeChatSetup_3.9.8.15.exe#/dl.7z",
+    "version": "3.9.8.15"
+}

@@ -1,4 +1,4 @@
-# :ox: Ox [![Tests](https://github.com/jat001/scoop-ox/actions/workflows/ci.yml/badge.svg)](https://github.com/jat001/scoop-ox/actions/workflows/ci.yml) [![Excavator](https://github.com/jat001/scoop-ox/actions/workflows/excavator.yml/badge.svg)](https://github.com/jat001/scoop-ox/actions/workflows/excavator.yml)
+# 🍧 Scoop Ox 🐂 [![Tests](https://github.com/jat001/scoop-ox/actions/workflows/ci.yml/badge.svg)](https://github.com/jat001/scoop-ox/actions/workflows/ci.yml) [![Excavator](https://github.com/jat001/scoop-ox/actions/workflows/excavator.yml/badge.svg)](https://github.com/jat001/scoop-ox/actions/workflows/excavator.yml)
 
 > The [Ox](https://en.wikipedia.org/wiki/Ox_(zodiac)) (牛) is the second of the 12-year periodic sequence (cycle) of animals which appear in the Chinese zodiac related to the Chinese calendar, and also appears in related calendar systems.
 

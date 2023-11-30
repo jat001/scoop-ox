@@ -23,7 +23,7 @@
     "installer": {
         "script": [
             "if (-not (Test-Path \"$(appdir obs-studio)\\current\")) {",
-            "    Write-Host -f Yellow \"OBS Studio was not installed through scoop. You must copy this plugin into the OBS installation folder manually!\"",
+            "    warn 'OBS Studio was not installed through scoop. You must copy this plugin into the OBS installation folder manually!'",
             "    return",
             "}",
             "Get-ChildItem -Path \"$dir\\obs-plugins\\$architecture\" -File | ForEach-Object {",
@@ -45,7 +45,7 @@
     "uninstaller": {
         "script": [
             "if (-not (Test-Path \"$(appdir obs-studio)\\current\")) {",
-            "    Write-Host -f Yellow \"OBS Studio was not installed through scoop. You must remove this plugin from the OBS installation folder manually!\"",
+            "    warn 'OBS Studio was not installed through scoop. You must remove this plugin from the OBS installation folder manually!'",
             "    return",
             "}",
             "Get-ChildItem -Path \"$dir\\obs-plugins\\$architecture\" -File | ForEach-Object {",

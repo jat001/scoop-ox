@@ -1,0 +1,38 @@
+{
+    "architecture": {
+        "64bit": {
+            "hash": "016d659a488df07f386e8f2ce7a7db977a788db4ac65e6af1119e326a76d44bf",
+            "shortcuts": [["bin\\64bit\\obs64.exe", "OBS Studio"]],
+            "url": "https://cdn-fastly.obsproject.com/downloads/OBS-Studio-30.0.zip"
+        }
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://cdn-fastly.obsproject.com/downloads/OBS-Studio-$version.zip"
+            }
+        }
+    },
+    "checkver": {
+        "github": "https://github.com/obsproject/obs-studio"
+    },
+    "description": "Free and open source software for live streaming and screen recording.",
+    "homepage": "https://obsproject.com",
+    "license": {
+        "identifier": "GPL-2.0-only",
+        "url": "https://github.com/obsproject/obs-studio/blob/master/COPYING"
+    },
+    "persist": ["config"],
+    "post_install": [
+        "New-Item -ItemType File -Path \"$dir\\portable_mode.txt\" -Force | Out-Null",
+        "Get-ChildItem -Path \"$scoopdir\\apps\\obs-*\" -Directory | Where-Object { $_.Name -notlike 'obs-studio*' } | ForEach-Object {",
+        "    Get-ChildItem -Path \"$($_.FullName)\\current\\obs-plugins\\$architecture\" -File | ForEach-Object {",
+        "        New-Item -ItemType HardLink -Path \"$dir\\obs-plugins\\$architecture\\$($_.Name)\" -Target $_.FullName -Force | Out-Null",
+        "    }",
+        "    Get-ChildItem -Path \"$($_.FullName)\\current\\data\\obs-plugins\" -Directory | ForEach-Object {",
+        "        New-Item -ItemType Junction -Path \"$dir\\data\\obs-plugins\\$($_.Name)\" -Target $_.FullName -Force | Out-Null",
+        "    }",
+        "}"
+    ],
+    "version": "30.0"
+}

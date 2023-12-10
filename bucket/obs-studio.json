@@ -1,9 +1,14 @@
 {
     "architecture": {
         "64bit": {
-            "hash": "016d659a488df07f386e8f2ce7a7db977a788db4ac65e6af1119e326a76d44bf",
-            "shortcuts": [["bin\\64bit\\obs64.exe", "OBS Studio"]],
-            "url": "https://cdn-fastly.obsproject.com/downloads/OBS-Studio-30.0.zip"
+            "hash": "b5eb1b56fb5016764cd5150f6597cd54446bd4ee5055f0382286bd4677ccd16a",
+            "shortcuts": [
+                [
+                    "bin\\64bit\\obs64.exe",
+                    "OBS Studio"
+                ]
+            ],
+            "url": "https://cdn-fastly.obsproject.com/downloads/OBS-Studio-30.0.1.zip"
         }
     },
     "autoupdate": {
@@ -22,7 +27,7 @@
         "identifier": "GPL-2.0-only",
         "url": "https://github.com/obsproject/obs-studio/blob/master/COPYING"
     },
-    "persist": ["config"],
+    "persist": "config",
     "post_install": [
         "New-Item -ItemType File -Path \"$dir\\portable_mode.txt\" -Force | Out-Null",
         "Get-ChildItem -Path \"$scoopdir\\apps\\obs-*\" -Directory | Where-Object { $_.Name -notlike 'obs-studio*' } | ForEach-Object {",
@@ -34,5 +39,5 @@
         "    }",
         "}"
     ],
-    "version": "30.0"
+    "version": "30.0.1"
 }

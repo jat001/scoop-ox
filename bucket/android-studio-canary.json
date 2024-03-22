@@ -1,14 +1,14 @@
 {
     "architecture": {
         "64bit": {
-            "hash": "58791bd05b05e0e8b616c3a8b5ffc7cf7048f3dd56b193e2feb57b1a7a530088",
+            "hash": "2b644fd957e122081be8f0b2fab8cb78d255f95724e8588f84758e725a0eb093",
             "shortcuts": [
                 [
                     "bin\\studio64.exe",
                     "Android Studio Canary"
                 ]
             ],
-            "url": "https://redirector.gvt1.com/edgedl/android/studio/ide-zips/2023.3.2.1/android-studio-2023.3.2.1-windows.zip"
+            "url": "https://redirector.gvt1.com/edgedl/android/studio/ide-zips/2023.3.2.2/android-studio-2023.3.2.2-windows.zip"
         }
     },
     "autoupdate": {
@@ -32,5 +32,5 @@
     "suggest": {
         "Android SDK": "android-clt"
     },
-    "version": "2023.3.2.1"
+    "version": "2023.3.2.2"
 }

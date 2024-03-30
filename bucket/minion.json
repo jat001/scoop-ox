@@ -1,5 +1,5 @@
 {
-    "version": "3.0.5",
+    "version": "3.0.12",
     "description": "Provides premeir AddOn Management for games such as World of Warcraft and The Elder Scrolls Online.",
     "homepage": "https://www.minion.gg",
     "license": {
@@ -8,12 +8,12 @@
     },
     "architecture": {
         "32bit": {
-            "url": "https://cdn.mmoui.com/minion/v3/Minion3.0.5-32bit.exe",
-            "hash": "4821a75d137040d809158cf32e9d478149171fa9bde881a62972565c345cd9a2"
+            "url": "https://cdn.mmoui.com/minion/v3/Minion3.0.12-32bit.exe",
+            "hash": "dd6d3989f7d0c5d0302145fabb06b748ee4c0cf5b87b8ccf279bb1f5f65a2f82"
         },
         "64bit": {
-            "url": "https://cdn.mmoui.com/minion/v3/Minion3.0.5.exe",
-            "hash": "07fd2b650e31c25abeb0e5cc366e3bcd88f652a7e78f28e4c1bfb448e5c6e129"
+            "url": "https://cdn.mmoui.com/minion/v3/Minion3.0.12.exe",
+            "hash": "616caa671f5ca792b9da506351cacc25f048f79407d41ce56912dd76a4de22e1"
         }
     },
     "innosetup": true,

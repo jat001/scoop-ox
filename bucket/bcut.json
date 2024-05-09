@@ -4,8 +4,8 @@
     },
     "checkver": {
         "script": [
-            "$script:ver = json_path $page '$.data.version'",
-            "$script:matchesHashtable = @{'url' = ((json_path $page '$.data.package_download_url') -split '\\?')[0]}",
+            "$script:ver = json_path $page '$.data.version' -single $true",
+            "$script:matchesHashtable = @{'url' = ((json_path $page '$.data.package_download_url' -single $true) -split '\\?')[0]}",
             "$script:regexp = $null"
         ],
         "url": "https://bcut.bilibili.cn/x/bcut/pc/upgrade?version=0"

@@ -16,7 +16,7 @@
         "url": "https://meeting.tencent.com/web-service/query-download-info?q=%5B%7B%22package-type%22:%22app%22,%22channel%22:%220300000000%22,%22platform%22:%22windows%22%7D%5D&nonce=AAAAAAAAAAAAAAAA"
     },
     "description": "腾讯会议，会开会。",
-    "hash": "md5:84961dd004fabbdbbd792d8eea8d937a",
+    "hash": "md5:70cb9a5a25dcb201db07c7ab07be3f2b",
     "homepage": "https://meeting.tencent.com",
     "installer": {
         "script": [
@@ -34,7 +34,12 @@
         "identifier": "Freeware",
         "url": "https://meeting.tencent.com/declare.html"
     },
-    "shortcuts": [["wemeetapp.exe", "Tencent Meeting"]],
+    "shortcuts": [
+        [
+            "wemeetapp.exe",
+            "Tencent Meeting"
+        ]
+    ],
     "uninstaller": {
         "script": [
             "Import-Module $(Join-Path $(Find-BucketDirectory -Root -Name ox) scripts/DoradoUtils.psm1)",
@@ -42,6 +47,6 @@
             "Remove-Module -Name DoradoUtils"
         ]
     },
-    "url": "https://updatecdn.meeting.qq.com/cos/84961dd004fabbdbbd792d8eea8d937a/TencentMeeting_0300000000_3.26.1.462.publish.officialwebsite.exe#/dl.7z",
-    "version": "3.26.1.462"
+    "url": "https://updatecdn.meeting.qq.com/cos/70cb9a5a25dcb201db07c7ab07be3f2b/TencentMeeting_0300000000_3.26.11.412.publish.officialwebsite.exe#/dl.7z",
+    "version": "3.26.11.412"
 }

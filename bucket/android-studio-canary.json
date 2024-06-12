@@ -1,14 +1,14 @@
 {
     "architecture": {
         "64bit": {
-            "hash": "2b644fd957e122081be8f0b2fab8cb78d255f95724e8588f84758e725a0eb093",
+            "hash": "e404b734f9bbae7c0bf5ac1c4d6a0a538bd326b141a89516080bcb66b9710638",
             "shortcuts": [
                 [
                     "bin\\studio64.exe",
                     "Android Studio Canary"
                 ]
             ],
-            "url": "https://redirector.gvt1.com/edgedl/android/studio/ide-zips/2023.3.2.2/android-studio-2023.3.2.2-windows.zip"
+            "url": "https://redirector.gvt1.com/edgedl/android/studio/ide-zips/2024.1.2.5/android-studio-2024.1.2.5-windows.zip"
         }
     },
     "autoupdate": {
@@ -19,7 +19,7 @@
         }
     },
     "checkver": {
-        "regex": "Android Studio \\w+ \\| ([\\d.]+) Canary (\\d+)",
+        "regex": "Android Studio [\\w ]+ \\| ([\\d.]+) Canary (\\d+)",
         "replace": "${1}.${2}"
     },
     "description": "The official IDE for Android development, which includes everything you need to build Android apps. (Canary version)",
@@ -32,5 +32,5 @@
     "suggest": {
         "Android SDK": "android-clt"
     },
-    "version": "2023.3.2.2"
+    "version": "2024.1.2.5"
 }

@@ -1,14 +1,14 @@
 {
     "architecture": {
         "64bit": {
-            "hash": "83e8b1a84f089270780e98f96e6b8556a883735f8101e12f6efa024aa8205ddd",
+            "hash": "37504bc88822edca82ea7062b1e98df2227e24007412c984d4df5bb7bbbac285",
             "shortcuts": [
                 [
                     "bin\\studio64.exe",
                     "Android Studio"
                 ]
             ],
-            "url": "https://redirector.gvt1.com/edgedl/android/studio/ide-zips/2023.3.1.20/android-studio-2023.3.1.20-windows.zip"
+            "url": "https://redirector.gvt1.com/edgedl/android/studio/ide-zips/2024.1.1.11/android-studio-2024.1.1.11-windows.zip"
         }
     },
     "autoupdate": {
@@ -29,5 +29,5 @@
     "suggest": {
         "Android SDK": "android-clt"
     },
-    "version": "2023.3.1.20"
+    "version": "2024.1.1.11"
 }

@@ -26,7 +26,7 @@
     },
     "description": "Tencent Docs (腾讯文档) supports multiple people editing Word, Excel and PPT documents online.",
     "extract_dir": "$PLUGINSDIR",
-    "hash": "ea1cc4b5eeb708b39300de7aa9739a68ca018dbd7371408800651ccdebe5b88b",
+    "hash": "2496fe797c4a011b4c48e13bf4a4f41363392caeffe4692b99e2635bac75bd3e",
     "homepage": "https://docs.qq.com",
     "license": {
         "identifier": "Freeware",
@@ -39,5 +39,5 @@
         ]
     ],
     "url": "https://docs.qq.com/api/package/get?channel_id=30001&version_id=latest&package_name=TencentDocs-x86_64.exe#/dl.7z",
-    "version": "6.1.0"
+    "version": "2.12.0"
 }

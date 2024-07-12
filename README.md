@@ -33,7 +33,7 @@ Name | Description | Version | License
 [kook](https://www.kookapp.cn) | A useful voice communication tool. | [0.85.0](https://github.com/jat001/scoop-ox/tree/master/bucket/kook.json) | [Freeware](https://www.kookapp.cn/protocol.html)
 [minion](https://www.minion.gg) | Provides premeir AddOn Management for games such as World of Warcraft and The Elder Scrolls Online. | [3.0.12](https://github.com/jat001/scoop-ox/tree/master/bucket/minion.json) | [Freeware](https://www.minion.gg/?license)
 [ndi-runtime](https://ndi.video/tools/ndi-core-suite/) | NewTek NDI runtime libraries. | [6.0.1](https://github.com/jat001/scoop-ox/tree/master/bucket/ndi-runtime.json) | [Freeware]()
-[netease-ui](https://w.163.com/ui) | 网易有爱插件：玩魔兽，就用有爱插件。 | [4.0.0.10040](https://github.com/jat001/scoop-ox/tree/master/bucket/netease-ui.json) | [Freeware](https://w.163.com/ui/policy/privacy)
+[netease-ui](https://w.163.com/ui) | 网易有爱插件：玩魔兽，就用有爱插件。 | [5.0.0.0](https://github.com/jat001/scoop-ox/tree/master/bucket/netease-ui.json) | [Freeware](https://w.163.com/ui/policy/privacy)
 [newbee-box](https://www.wclbox.com) | 新手盒子是一款管理魔兽世界插件及实时伤害排行榜的桌面客户端。 | [0.0.1.0](https://github.com/jat001/scoop-ox/tree/master/bucket/newbee-box.json) | [Freeware]()
 [obs-multi-rtmp](https://github.com/sorayuki/obs-multi-rtmp) | Multiple RTMP outputs plugin for OBS Studio. | [0.6.0.1](https://github.com/jat001/scoop-ox/tree/master/bucket/obs-multi-rtmp.json) | [GPL-2.0-only](https://github.com/sorayuki/obs-multi-rtmp/blob/master/LICENSE)
 [obs-ndi](https://github.com/obs-ndi/obs-ndi) | NewTek NDI integration for OBS Studio. | [4.13.2](https://github.com/jat001/scoop-ox/tree/master/bucket/obs-ndi.json) | [GPL-2.0-only](https://github.com/obs-ndi/obs-ndi/blob/master/LICENSE)

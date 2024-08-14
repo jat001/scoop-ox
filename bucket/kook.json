@@ -12,7 +12,7 @@
     },
     "description": "A useful voice communication tool.",
     "extract_to": "tmp",
-    "hash": "0f29167585161e0a61478b770876ec1119a35ebc5b40fc80ddc62ea06e72329f",
+    "hash": "be3851fa72bd715ac332d48925dff62db11c3ed989e39aebf8fe3334c765aba7",
     "homepage": "https://www.kookapp.cn",
     "license": {
         "identifier": "Freeware",
@@ -38,6 +38,6 @@
             "--user-data-dir=\"$dir\\User Data\""
         ]
     ],
-    "url": "https://dl.kookapp.cn/assets/release/html_pc/kook_1088/Kook_PC_Setup_v0.86.3.0_b2ZmaWNpYWwuc2l0ZS4uLi5wYw==.exe?auth_key=1722630347-e851e6f2e31d3c8ec32bd1ac8f22029c-6g0fwjz0-ca5b4e5cb7807012ced865ec696dc906#/dl.7z",
-    "version": "0.86.3"
+    "url": "https://dl.kookapp.cn/assets/release/html_pc/kook_1116/Kook_PC_Setup_v0.86.5.0_b2ZmaWNpYWwuc2l0ZS4uLi5wYw==.exe?auth_key=1723609639-bd628ea53ba4566683f1667efc792f2f-6h56xgz0-cf7b38c8a71cf013081363579e0adc57#/dl.7z",
+    "version": "0.86.5"
 }

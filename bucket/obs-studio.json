@@ -1,14 +1,14 @@
 {
     "architecture": {
         "64bit": {
-            "hash": "d8018dedd5453e24746a89f65500db51e8f37b3774d78a80ce65e1d2f9a6b3aa",
+            "hash": "c5bf721258f6d8b2342ed39f04e65cdd3a07a9d1300654471d4be91d87fee65b",
             "shortcuts": [
                 [
                     "bin\\64bit\\obs64.exe",
                     "OBS Studio"
                 ]
             ],
-            "url": "https://cdn-fastly.obsproject.com/downloads/OBS-Studio-30.2.2-Windows.zip"
+            "url": "https://cdn-fastly.obsproject.com/downloads/OBS-Studio-30.2.3-Windows.zip"
         }
     },
     "autoupdate": {
@@ -39,5 +39,5 @@
         "    }",
         "}"
     ],
-    "version": "30.2.2"
+    "version": "30.2.3"
 }

@@ -27,7 +27,7 @@ Name | Description | Version | License
 [heybox-acc](https://acc.xiaoheihe.cn) | 小黑盒加速器，全球专线加速，游戏网络专家。 | [1.1.56.0](https://github.com/jat001/scoop-ox/tree/master/bucket/heybox-acc.json) | [Freeware]()
 [heybox-chat](https://chat.xiaoheihe.cn) | 黑盒语音，玩家开黑大本营。 | [1.26.2.77](https://github.com/jat001/scoop-ox/tree/master/bucket/heybox-chat.json) | [Freeware]()
 [heybox-workshop](https://workshop.xiaoheihe.cn) | 黑盒工坊，轻松管理你的魔兽插件，畅游艾泽拉斯。 | [1.9.34.0](https://github.com/jat001/scoop-ox/tree/master/bucket/heybox-workshop.json) | [Freeware]()
-[kook](https://www.kookapp.cn) | A useful voice communication tool. | [0.87.0](https://github.com/jat001/scoop-ox/tree/master/bucket/kook.json) | [Freeware](https://www.kookapp.cn/protocol.html)
+[kook](https://www.kookapp.cn) | A useful voice communication tool. | [0.87.2](https://github.com/jat001/scoop-ox/tree/master/bucket/kook.json) | [Freeware](https://www.kookapp.cn/protocol.html)
 [minion](https://www.minion.gg) | Provides premeir AddOn Management for games such as World of Warcraft and The Elder Scrolls Online. | [3.0.12](https://github.com/jat001/scoop-ox/tree/master/bucket/minion.json) | [Freeware](https://www.minion.gg/?license)
 [ndi-runtime](https://ndi.video/tools/ndi-core-suite/) | NewTek NDI runtime libraries. | [6.0.1](https://github.com/jat001/scoop-ox/tree/master/bucket/ndi-runtime.json) | [Freeware]()
 [netease-dd](https://dd.163.com) | 网易DD，原有爱插件。 | [1.0.32](https://github.com/jat001/scoop-ox/tree/master/bucket/netease-dd.json) | [Freeware](https://dd.163.com/policy/privacy)

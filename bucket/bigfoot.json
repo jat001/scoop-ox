@@ -19,6 +19,7 @@
     "license": {
         "identifier": "Freeware"
     },
+    "persist": "bin",
     "shortcuts": [["BigFoot-WOW.exe", "大脚"]],
     "url": "https://bfclient.178.com/xy-production/bigfootUpdateOnline/BigFoot-WOW_7.4.4.exe#/dl.7z",
     "version": "7.4.4"

@@ -17,7 +17,7 @@ Name | Description | Version | License
 [ajour](https://github.com/ajour/ajour) | A World of Warcraft addon manager written in Rust. | [1.3.2](https://github.com/jat001/scoop-ox/tree/master/bucket/ajour.json) | [MIT](https://github.com/ajour/ajour/blob/master/LICENSE)
 [ajour-beta](https://github.com/ajour/ajour) | A World of Warcraft addon manager written in Rust. (Beta version) | [1.3.2](https://github.com/jat001/scoop-ox/tree/master/bucket/ajour-beta.json) | [MIT](https://github.com/ajour/ajour/blob/master/LICENSE)
 [bcut](https://bcut.bilibili.cn) | 必剪，B站官方出品。 | [3.3.9](https://github.com/jat001/scoop-ox/tree/master/bucket/bcut.json) | [Freeware]()
-[bigfoot](https://bigfoot.178.com/wow/index.html) | 魔兽世界大脚插件，轻松管理你的魔兽插件，畅游艾泽拉斯。 | [7.4.3.2](https://github.com/jat001/scoop-ox/tree/master/bucket/bigfoot.json) | [Freeware]()
+[bigfoot](https://bigfoot.178.com/wow/index.html) | 魔兽世界大脚插件，轻松管理你的魔兽插件，畅游艾泽拉斯。 | [7.4.4](https://github.com/jat001/scoop-ox/tree/master/bucket/bigfoot.json) | [Freeware]()
 [cafeact](https://www.ffcafe.cn/act/) | ACT 国服整合，自带超方便插件中心的 Advanced Combat Tracker 整合版。 | [3.9.10.5](https://github.com/jat001/scoop-ox/tree/master/bucket/cafeact.json) | [Freeware]()
 [cheat-engine-zh-cn](https://cheatengine.org) | Tool for modifying/debugging single player games and applications. | [7.5](https://github.com/jat001/scoop-ox/tree/master/bucket/cheat-engine-zh-cn.json) | [Freeware](https://github.com/cheat-engine/cheat-engine/issues/60#issuecomment-467317576)
 [clash-for-windows](https://web.archive.org/web/20231030023332/https://github.com/Fndroid/clash_for_windows_pkg) | A Windows GUI based on Clash. | [0.20.39](https://github.com/jat001/scoop-ox/tree/master/bucket/clash-for-windows.json) | [Freeware]()

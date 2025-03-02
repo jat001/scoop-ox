@@ -16,7 +16,7 @@
         "url": "https://voovmeeting.com/web-service/query-download-info?q=%5B%7B%22package-type%22:%22app%22,%22channel%22:%221410000197%22,%22platform%22:%22windows%22,%22decorators%22:%5B%22intl%22%5D%7D%5D&nonce=AAAAAAAAAAAAAAAA"
     },
     "description": "Backed by Tencent's years of experience in audiovisual communications, VooV Meeting provides one-stop cloud-based conferencing solutions.",
-    "hash": "md5:ddccf388e73dc7b156e55082db99356a",
+    "hash": "md5:d4f8366575fbcc01657d21006a3c6cc4",
     "homepage": "https://voovmeeting.com",
     "installer": {
         "script": [
@@ -47,6 +47,6 @@
             "Remove-Module -Name DoradoUtils"
         ]
     },
-    "url": "https://updatecdn.meeting.qq.com/cos/ddccf388e73dc7b156e55082db99356a/VooVMeeting_1410000197_3.29.21.510.publish.exe#/dl.7z",
-    "version": "3.29.21.510"
+    "url": "https://updatecdn.meeting.qq.com/cos/d4f8366575fbcc01657d21006a3c6cc4/VooVMeeting_1410000197_3.30.0.510.publish.exe#/dl.7z",
+    "version": "3.30.0.510"
 }

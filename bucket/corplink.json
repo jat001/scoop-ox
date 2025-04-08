@@ -13,7 +13,7 @@
     },
     "description": "飞连是一款集身份认证、VPN连接、风险检测、权限管控等功能为一体，安全便捷的数字化办公平台。",
     "extract_dir": "current",
-    "hash": "446dde678302cbf1f6b725b6a8956205373a54e84f36791a294a8e90fea2854e",
+    "hash": "f01ab1f486754651125b506c0f9234f92d46ac193987889970f354e242aa5a9a",
     "homepage": "https://www.volcengine.com/product/feilian",
     "license": {
         "identifier": "Freeware"
@@ -31,6 +31,6 @@
             "飞连"
         ]
     ],
-    "url": "https://cdn.isealsuite.com/windows/FeiLian_Windows_x86_v2.2.25_r1000_63365d.exe#/dl.7z",
-    "version": "2.2.25"
+    "url": "https://cdn.isealsuite.com/windows/FeiLian_Windows_x86_v3.0.21_r1070_0bff2e.exe#/dl.7z",
+    "version": "3.0.21"
 }

@@ -1,8 +1,8 @@
 {
     "architecture": {
         "64bit": {
-            "hash": "fcb22daee2a36933aab0bf95240a5033854fb2d32668ead7c7c3fb060d421747",
-            "url": "https://github.com/DistroAV/DistroAV/releases/download/4.14.1/obs-ndi-4.14.1-windows-x64.zip"
+            "hash": "b9014be26b3791778525501b9fd31f34e8f0291db0bc67f8fde7f90e552a74e1",
+            "url": "https://github.com/DistroAV/DistroAV/releases/download/6.0.0/distroav-6.0.0-windows-x64.zip"
         }
     },
     "autoupdate": {
@@ -12,7 +12,7 @@
                     "regex": "$basename: ([0-9a-f]{64})",
                     "url": "https://github.com/DistroAV/DistroAV/releases/tag/$version"
                 },
-                "url": "https://github.com/DistroAV/DistroAV/releases/download/$version/obs-ndi-$version-windows-x64.zip"
+                "url": "https://github.com/DistroAV/DistroAV/releases/download/$version/distroav-$version-windows-x64.zip"
             }
         }
     },
@@ -56,5 +56,5 @@
             "}"
         ]
     },
-    "version": "4.14.1"
+    "version": "6.0.0"
 }

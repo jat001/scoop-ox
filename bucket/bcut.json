@@ -11,7 +11,7 @@
         "url": "https://bcut.bilibili.cn/x/bcut/pc/upgrade?version=0"
     },
     "description": "必剪，B站官方出品。",
-    "hash": "0e560e915e81bf447d819fe06aa16f326035027ebd17994c4e239a25281ee585",
+    "hash": "dcbb5eb4054f1aba6f665d1eba0069e446f057c43bc3890158001d372d8fd3b1",
     "homepage": "https://bcut.bilibili.cn",
     "innosetup": true,
     "license": {
@@ -23,6 +23,6 @@
             "必剪"
         ]
     ],
-    "url": "https://boss.hdslb.com/bcut_pc_pkg/static/809cb61ba679e9f1bb03c08729d61c90/Bcut-Win-3.5.5.exe",
-    "version": "3.5.5"
+    "url": "https://boss.hdslb.com/bcut_pc_pkg/static/938df14f78cbfd64c73d473fec2c8432/Bcut-Win-3.8.0-19898118.exe",
+    "version": "3.8.0"
 }

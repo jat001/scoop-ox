@@ -1,13 +1,13 @@
 {
-    "version": "1.286.0-27968",
+    "version": "1.287.1-28201",
     "description": "Download and manage your addons, CC and mods.",
     "homepage": "https://download.curseforge.com",
     "license": {
         "identifier": "Freeware",
         "url": "https://www.overwolf.com/legal/terms"
     },
-    "url": "https://appsdl-overwolf-com.akamaized.net/prod/apps/cfiahnpaolfnlgaihhmobmnjdafknjnjdpdabpcm/1.286.0-27968/setup.exe#/dl.7z",
-    "hash": "sha512:a5b604614176bb78e903e5257dd07a77fb678d0148569db7d4e00ea249c7f589f2046b9940a53352cbedd0fe8ed436a871feea946b1cd9a6d6f8e563c9f6f6c8",
+    "url": "https://appsdl-overwolf-com.akamaized.net/prod/apps/cfiahnpaolfnlgaihhmobmnjdafknjnjdpdabpcm/1.287.1-28201/setup.exe#/dl.7z",
+    "hash": "sha512:8e961af105baada85d679a588bd9fbc876baa8ceecfd7504938d33eccf1eccec4f0422617d8fdc1a342c7a302299cae3efa64b8c5a5ae3d73ca8595f300a180d",
     "extract_dir": "$PLUGINSDIR",
     "installer": {
         "script": [

@@ -1,13 +1,13 @@
 {
-    "version": "9.0.33",
-    "description": "Warcraft logs uploader.",
-    "homepage": "https://www.warcraftlogs.com/client/download",
+    "version": "9.0.34",
+    "description": "The complete toolkit for mastering endgame content.",
+    "homepage": "https://www.archon.gg/download",
     "license": {
         "identifier": "Freeware",
-        "url": "https://www.warcraftlogs.com/help/privacy"
+        "url": "https://www.archon.gg/privacy-policy"
     },
-    "url": "https://github.com/RPGLogs/Uploaders-warcraftlogs/releases/download/v9.0.33/warcraftlogs-v9.0.33.exe#/dl.7z",
-    "hash": "58471d55f758e3f1896ddeb1265853c9b99e29e570cadb8b59a9814b98ba688f",
+    "url": "https://github.com/RPGLogs/Uploaders-archon/releases/download/v9.0.34/archon-v9.0.34.exe#/dl.7z",
+    "hash": "89b12a670103ab69a63b0fda9e0096d304aaf3b42f3a7ca5d4ebd168867df151",
     "extract_dir": "$PLUGINSDIR",
     "architecture": {
         "32bit": {
@@ -28,7 +28,7 @@
         }
     },
     "pre_install": [
-        "$targetPath = \"$env:LocalAppData\\Programs\\Warcraft Logs Uploader\"",
+        "$targetPath = \"$env:LocalAppData\\Programs\\Archon App\"",
         "if (Test-Path \"$targetPath\") {",
         "    Remove-Item -Path \"$targetPath\" -Force -Recurse",
         "}",
@@ -36,7 +36,7 @@
     ],
     "post_install": [
         "ensure \"$persist_dir\" | Out-Null",
-        "$targetPath = \"$env:AppData\\Warcraft Logs Uploader\"",
+        "$targetPath = \"$env:AppData\\Archon App\"",
         "$linkType = (Get-Item -Path \"$targetPath\" -ErrorAction SilentlyContinue).LinkType",
         "if (Test-Path \"$targetPath\") {",
         "    if ($linkType -eq 'Junction') {",
@@ -50,20 +50,20 @@
     ],
     "uninstaller": {
         "script": [
-            "Remove-Item -Path \"$env:LocalAppData\\Programs\\Warcraft Logs Uploader\" -Force -Recurse -ErrorAction SilentlyContinue",
-            "Remove-Item -Path \"$env:AppData\\Warcraft Logs Uploader\" -Force -Recurse -ErrorAction SilentlyContinue"
+            "Remove-Item -Path \"$env:LocalAppData\\Programs\\Archon App\" -Force -Recurse -ErrorAction SilentlyContinue",
+            "Remove-Item -Path \"$env:AppData\\Archon App\" -Force -Recurse -ErrorAction SilentlyContinue"
         ]
     },
     "shortcuts": [
         [
-            "Warcraft Logs Uploader.exe",
-            "Warcraft Logs Uploader"
+            "Archon App.exe",
+            "Archon App"
         ]
     ],
     "checkver": {
-        "github": "https://github.com/RPGLogs/Uploaders-warcraftlogs"
+        "github": "https://github.com/RPGLogs/Uploaders-archon"
     },
     "autoupdate": {
-        "url": "https://github.com/RPGLogs/Uploaders-warcraftlogs/releases/download/v$version/warcraftlogs-v$version.exe#/dl.7z"
+        "url": "https://github.com/RPGLogs/Uploaders-archon/releases/download/v$version/archon-v$version.exe#/dl.7z"
     }
 }

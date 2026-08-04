@@ -1,14 +1,14 @@
 {
     "architecture": {
         "64bit": {
-            "hash": "8d97e4563bd8d22d03e63042aa7dccede1d555c9bd35ce8a9e5019b0d0201bf6",
+            "hash": "db64a2934f8261f85b1410b84be011207a0afda5400d008289f1f1e211bcc7de",
             "shortcuts": [
                 [
                     "bin\\64bit\\obs64.exe",
                     "OBS Studio"
                 ]
             ],
-            "url": "https://github.com/obsproject/obs-studio/releases/download/32.1.2/OBS-Studio-32.1.2-Windows-x64.zip"
+            "url": "https://github.com/obsproject/obs-studio/releases/download/32.2.1/OBS-Studio-32.2.1-Windows-x64.zip"
         }
     },
     "autoupdate": {
@@ -39,5 +39,5 @@
         "    }",
         "}"
     ],
-    "version": "32.1.2"
+    "version": "32.2.1"
 }

@@ -14,16 +14,12 @@ body:
     label: Criteria
     description: For a package to be acceptable in this bucket, it should be
     options:
-    - label: Reasonably well-known and widely used (e.g. if it's a GitHub project, it should have at least 100 stars and/or 50 forks)
+    - label: Criteria 1
       required: true
-    - label: English interface (or at least English documentation)
+    - label: Criteria 2
       required: true
-    - label: Latest stable version
+    - label: Criteria 3
       required: true
-    - label: Full version (i.e. not a trial version)
-      required: false
-    - label: Fairly standard install (e.g. uses a version-specific download URL, no elaborate pre/post install scripts)
-      required: false
 - type: input
   attributes:
     label: Name

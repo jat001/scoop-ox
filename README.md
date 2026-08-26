@@ -16,7 +16,7 @@ Name | Description | Version | License
 [advanced-rest-client](https://install.advancedrestclient.com) | A developer tool to test a HTTP request. | [17.0.9](https://github.com/jat001/scoop-ox/tree/master/bucket/advanced-rest-client.json) | [Apache License 2.0](https://github.com/advanced-rest-client/arc-electron/blob/master/LICENSE.md)
 [ajour](https://github.com/ajour/ajour) | A World of Warcraft addon manager written in Rust. | [1.3.2](https://github.com/jat001/scoop-ox/tree/master/bucket/ajour.json) | [MIT](https://github.com/ajour/ajour/blob/master/LICENSE)
 [ajour-beta](https://github.com/ajour/ajour) | A World of Warcraft addon manager written in Rust. (Beta version) | [1.3.2](https://github.com/jat001/scoop-ox/tree/master/bucket/ajour-beta.json) | [MIT](https://github.com/ajour/ajour/blob/master/LICENSE)
-[archon](https://www.archon.gg/download) | The complete toolkit for mastering endgame content. | [9.6.0](https://github.com/jat001/scoop-ox/tree/master/bucket/archon.json) | [Freeware](https://www.archon.gg/privacy-policy)
+[archon](https://www.archon.gg/download) | The complete toolkit for mastering endgame content. | [9.6.30](https://github.com/jat001/scoop-ox/tree/master/bucket/archon.json) | [Freeware](https://www.archon.gg/privacy-policy)
 [bcut](https://bcut.bilibili.cn) | 必剪，B站官方出品。 | [3.11.25](https://github.com/jat001/scoop-ox/tree/master/bucket/bcut.json) | [Freeware]()
 [bigfoot](https://bigfoot.stargame.com) | 魔兽世界大脚插件，轻松管理你的魔兽插件，畅游艾泽拉斯。 | [7.5.34](https://github.com/jat001/scoop-ox/tree/master/bucket/bigfoot.json) | [Freeware]()
 [cafeact](https://www.ffcafe.cn/act/) | ACT 国服整合，自带超方便插件中心的 Advanced Combat Tracker 整合版。 | [3.9.10.5](https://github.com/jat001/scoop-ox/tree/master/bucket/cafeact.json) | [Freeware]()

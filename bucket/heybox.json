@@ -1,9 +1,10 @@
 {
     "version": "2.11.5",
-    "description": "小黑盒 - 玩家高能聚集地",
+    "description": "小黑盒是一款专为游戏玩家定制，集新闻资讯、百科工具、内容社区、战绩查询、游戏商城为一体的专业应用。",
     "homepage": "https://www.xiaoheihe.cn/",
     "license": {
-        "identifier": "Freeware"
+        "identifier": "Freeware",
+        "url": "https://api.xiaoheihe.cn/account/privacy_introduce/?page_type=1"
     },
     "depends": "7zip",
     "architecture": {

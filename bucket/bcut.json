@@ -16,7 +16,8 @@
     "homepage": "https://bcut.bilibili.cn",
     "innosetup": true,
     "license": {
-        "identifier": "Freeware"
+        "identifier": "Freeware",
+        "url": "https://www.bilibili.com/blackboard/activity-iPJCc96ZmI.html"
     },
     "shortcuts": [
         [

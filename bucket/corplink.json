@@ -16,7 +16,8 @@
     "hash": "7134744ba35a8210ca3c3f8db32302df1ee45518c3d33767678ba015d47279c0",
     "homepage": "https://www.volcengine.com/product/feilian",
     "license": {
-        "identifier": "Freeware"
+        "identifier": "Freeware",
+        "url": "https://corplink.volcengine.cn/p/user/default_zh.html"
     },
     "notes": "初次使用需运行 $dir\\checkserver.bat 来安装飞连服务。",
     "persist": ".config.json",

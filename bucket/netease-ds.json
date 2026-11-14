@@ -50,7 +50,7 @@
         "regex": "^(?<version>\\d+(?:\\.\\d+)+)(?: (?<sha256>[a-f0-9]{64}))?$",
         "url": "https://inf.ds.163.com/v1/web/init/server/time"
     },
-    "description": "网易大神 PC 客户端，网易游戏玩家社区。",
+    "description": "网易大神，超热闹的游戏玩家社交平台。",
     "homepage": "https://ds.163.com/pc/",
     "license": {
         "identifier": "Freeware",
@@ -163,11 +163,6 @@
         "    [IO.Directory]::Delete($targetPath)",
         "}"
     ],
-    "shortcuts": [
-        [
-            "Start.exe",
-            "网易大神"
-        ]
-    ],
+    "shortcuts": [["Start.exe", "网易大神"]],
     "version": "1.0.17"
 }

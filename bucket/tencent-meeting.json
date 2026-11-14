@@ -17,7 +17,7 @@
         "url": "https://meeting.tencent.com/web-service/query-download-info?q=%5B%7B%22package-type%22:%22app%22,%22channel%22:%220300000000%22,%22platform%22:%22windows%22%7D%5D&nonce=AAAAAAAAAAAAAAAA"
     },
     "description": "腾讯会议，会开会。",
-    "hash": "md5:ef0c9fd2b802666e15dac5fe62aa6b45",
+    "hash": "md5:6ea283807b18703cbe387f63fc7d463f",
     "homepage": "https://meeting.tencent.com",
     "installer": {
         "script": [
@@ -48,6 +48,6 @@
             "Remove-Module -Name DoradoUtils"
         ]
     },
-    "url": "https://updatecdn.meeting.qq.com/cos/ef0c9fd2b802666e15dac5fe62aa6b45/TencentMeeting_0300000000_3.46.11.413.publish.officialwebsite.exe#/dl.7z",
-    "version": "3.46.11.413"
+    "url": "https://updatecdn.meeting.qq.com/cos/6ea283807b18703cbe387f63fc7d463f/TencentMeeting_0300000000_3.48.0.443.publish.officialwebsite.exe#/dl.7z",
+    "version": "3.48.0.443"
 }

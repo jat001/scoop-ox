@@ -34,6 +34,7 @@ Name | Description | Version | License
 [minion](https://www.minion.gg) | Provides premeir AddOn Management for games such as World of Warcraft and The Elder Scrolls Online. | [3.0.12](https://github.com/jat001/scoop-ox/tree/master/bucket/minion.json) | [Freeware](https://www.minion.gg/?license)
 [ndi-runtime](https://ndi.video/tools/ndi-core-suite/) | NewTek NDI runtime libraries. | [6.3.2](https://github.com/jat001/scoop-ox/tree/master/bucket/ndi-runtime.json) | [Freeware]()
 [netease-dd](https://dd.163.com) | 网易DD，原有爱插件。 | [1.1.30](https://github.com/jat001/scoop-ox/tree/master/bucket/netease-dd.json) | [Freeware](https://dd.163.com/policy/privacy)
+[netease-ds](https://ds.163.com/pc/) | 网易大神 PC 客户端，网易游戏玩家社区。 | [1.0.17](https://github.com/jat001/scoop-ox/tree/master/bucket/netease-ds.json) | [Freeware](https://m.ds.163.com/p/builtin/policy/privacy/)
 [newbee-box](https://www.wclbox.com) | 新手盒子是一款管理魔兽世界插件及实时伤害排行榜的桌面客户端。 | [1.1.31](https://github.com/jat001/scoop-ox/tree/master/bucket/newbee-box.json) | [Freeware]()
 [obs-multi-rtmp](https://github.com/sorayuki/obs-multi-rtmp) | Multiple RTMP outputs plugin for OBS Studio. | [0.7.4.3](https://github.com/jat001/scoop-ox/tree/master/bucket/obs-multi-rtmp.json) | [GPL-2.0-only](https://github.com/sorayuki/obs-multi-rtmp/blob/master/LICENSE)
 [obs-studio](https://obsproject.com) | Free and open source software for live streaming and screen recording. | [33.0.1](https://github.com/jat001/scoop-ox/tree/master/bucket/obs-studio.json) | [GPL-2.0-only](https://github.com/obsproject/obs-studio/blob/master/COPYING)

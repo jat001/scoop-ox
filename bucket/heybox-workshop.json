@@ -1,23 +1,53 @@
 {
-    "version": "1.17.0.757",
-    "description": "黑盒工坊，轻松管理你的魔兽插件，畅游艾泽拉斯。",
+    "version": "2.11.5",
+    "description": "黑盒工坊，轻松管理你的魔兽插件，畅游艾泽拉斯。新版由小黑盒桌面客户端提供。",
     "homepage": "https://workshop.xiaoheihe.cn",
     "license": {
         "identifier": "Freeware"
     },
-    "url": "https://macc.max-c.com/heyboxpc/pc/heybox_workshop_upgrade_installer.1.17.0.757.exe#/dl.7z",
-    "hash": "8a4166e2daa3c2baaf197545562f68b94e0130d331e007a9d06bf20461d7629d",
+    "depends": "7zip",
+    "architecture": {
+        "64bit": {
+            "url": "https://install.max-c.com/static/heybox/heybox_desktop/v2.11.5/release/win/x64/bc681532d252f4fcbef401cdb149a22ff909aa20bb21e055fec3f5a69f217201/heybox-desktop-2.11.5-win-x64.exe#/heybox-setup.exe",
+            "hash": "bc681532d252f4fcbef401cdb149a22ff909aa20bb21e055fec3f5a69f217201",
+            "pre_install": [
+                "$installer = Join-Path $dir 'heybox-setup.exe'",
+                "$archive = Join-Path $dir 'app.7z'",
+                "# The NSIS payload stores all parts under the same path. Stream them in archive order.",
+                "$arguments = 'x -so -bsp0 \"{0}\" \"$PLUGINSDIR\\aid-app-archive.part\"' -f $installer",
+                "$process = Start-Process -FilePath (Get-HelperPath 7zip) -ArgumentList $arguments -RedirectStandardOutput $archive -NoNewWindow -Wait -PassThru",
+                "if ($process.ExitCode -ne 0) { abort 'Failed to extract the Heybox Workshop archive.' }",
+                "Expand-7zipArchive -Path $archive -DestinationPath $dir -Removal",
+                "Remove-Item -LiteralPath $installer"
+            ]
+        }
+    },
     "shortcuts": [
         [
-            "heyboxwow.exe",
+            "小黑盒.exe",
             "黑盒工坊"
         ]
     ],
     "checkver": {
-        "script": "(Invoke-WebRequest -Uri 'https://accoriapi.xiaoheihe.cn/wow/download/' -MaximumRedirection 0 -SkipHttpErrorCheck -ErrorAction:SilentlyContinue).Headers.Location",
-        "regex": "heybox_workshop_upgrade_installer\\.([\\d.]+)\\.exe"
+        "script": [
+            "Add-Type -AssemblyName System.Net.Http",
+            "$handler = [System.Net.Http.HttpClientHandler]::new()",
+            "$handler.AllowAutoRedirect = $false",
+            "$client = [System.Net.Http.HttpClient]::new($handler)",
+            "try {",
+            "    $response = $client.GetAsync('https://accoriapi.xiaoheihe.cn/wow/download/').GetAwaiter().GetResult()",
+            "    if ($response.Headers.Location) { $response.Headers.Location.GetLeftPart([UriPartial]::Path) }",
+            "} finally {",
+            "    $client.Dispose()",
+            "}"
+        ],
+        "regex": "^https://install\\.max-c\\.com/(?<url>static/heybox/heybox_desktop/v[\\d.]+/release/win/x64/[a-f0-9]+/heybox-desktop-(?<version>\\d+\\.\\d+\\.\\d+)-win-x64\\.exe)$"
     },
     "autoupdate": {
-        "url": "https://macc.max-c.com/heyboxpc/pc/heybox_workshop_upgrade_installer.$version.exe#/dl.7z"
+        "architecture": {
+            "64bit": {
+                "url": "https://install.max-c.com/$matchUrl#/heybox-setup.exe"
+            }
+        }
     }
 }

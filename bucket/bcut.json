@@ -1,12 +1,13 @@
 {
     "autoupdate": {
-        "url": "$matchUrl"
+        "url": "https://boss.hdslb.com/$matchUrl"
     },
     "checkver": {
+        "regex": "^(?<version>\\d+(?:\\.\\d+)+) https://boss\\.hdslb\\.com/(?<url>\\S+)$",
         "script": [
-            "$script:ver = json_path $page '$.data.version' -single $true",
-            "$script:matchesHashtable = @{'url' = ((json_path $page '$.data.package_download_url' -single $true) -split '\\?')[0]}",
-            "$script:regexp = $null"
+            "$version = json_path $page '$.data.version' -single $true",
+            "$url = ((json_path $page '$.data.package_download_url' -single $true) -split '\\?')[0]",
+            "\"$version $url\""
         ],
         "url": "https://bcut.bilibili.cn/x/bcut/pc/upgrade?version=0"
     },
